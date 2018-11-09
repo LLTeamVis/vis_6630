@@ -150,14 +150,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="266" />
-          <entry key="html" value="187" />
+          <entry key="html" value="197" />
           <entry key="js" value="1550" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="266" />
-          <entry key="HTML" value="187" />
+          <entry key="HTML" value="197" />
           <entry key="JavaScript" value="1550" />
         </counts>
       </usages-collector>
@@ -182,8 +182,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ti8.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="88" column="49" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="49" />
+            <state relative-caret-position="195">
+              <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
               <folding>
                 <element signature="n#style#0;n#button#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -339,9 +339,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="223" />
-    <option name="y" value="210" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="218" />
+    <option name="y" value="76" />
     <option name="width" value="1280" />
     <option name="height" value="697" />
   </component>
@@ -421,12 +421,12 @@
       <workItem from="1541615170974" duration="649000" />
       <workItem from="1541623991595" duration="12631000" />
       <workItem from="1541664829181" duration="19390000" />
-      <workItem from="1541782851615" duration="2122000" />
+      <workItem from="1541782851615" duration="3140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129535000" />
+    <option name="totallyTimeSpent" value="130553000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -438,7 +438,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="414" y="42" width="1280" height="697" extended-state="0" />
+    <frame x="-79" y="84" width="1280" height="697" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23510723" />
@@ -538,8 +538,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ti8.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="88" column="49" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="49" />
+        <state relative-caret-position="195">
+          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
           <folding>
             <element signature="n#style#0;n#button#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
