@@ -1,0 +1,165 @@
+#header {
+    color:white;
+    text-align:center;
+    padding:5px;
+
+}
+.box{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    overflow:hidden;
+}
+
+.h5{
+    font-size: 100%;
+    color: dodgerblue;
+}
+#first {
+    position: absolute;
+    left: 5%;
+    top:100%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsouh9ot7ZEgnPKFlZ6hgWvP2UkuERgVH0NPMXhI4cXHGnLnIeqA");
+    font-size: 160%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+#match{
+    position: absolute;
+    left: 5%;
+    top:70%;
+    font-size: 160%;
+    color: aqua;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CAFbWcz94QAF7okEjH156xif-f1IEOFWMhquagLhihh7caXBYQ");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#team {
+    position: absolute;
+    left: 5%;
+    top:80%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd8aI5DpT-RbM_zzjHl1G7-GcmSlMTNKWzVLFml0O3qjR_cSOy8Q");
+    font-size: 120%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: gold;
+}
+#hero{
+    position: absolute;
+    left: 5%;
+    top:90%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRXd6pZoq_bxSqxWwFYfhumsbOgq-4y-1qKUyObvn9bdoXLX56");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: brown;
+    font-size: 160%;
+}
+.video{
+    position:absolute;
+    left:9px;
+    top:8px;
+}
+#league{
+    font-size: 120%;
+}
+#nav {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWRhfDtd737137EUDian6OnNIUMGKCsa4VAHKwl6i_XG1JzWVmvA");
+    background-color: bisque;
+    line-height:30px;
+    height:781px;
+    width: 21%;
+    float:left;
+    padding:5px;
+    background-repeat: no-repeat;
+    background-size: 270px 150px;
+
+
+}
+.header {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRL8L-mggJ1qrRhqfZbzcdEKxOOMuOijZnMrSL5LwNdb9dDzOE");
+    font-size: 150%;
+    font-family:cursive;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    text-shadow: 0 0 20px #fdec84,
+    10px -10px 30px #ffae35,
+    20px -20px 40px #ec760c,
+    -20px -60px 50px #cd4607;
+    height: 140px;
+
+}
+#section{
+     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDTYIdQqlwNpKr2XM_629nVsp6OTS-7fp2m5305srZGkLxwsQn");
+     width: 58%;
+     height:640px;
+     float:left;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+ }
+
+#matchbc{
+    background-image: url("https://thekmart.files.wordpress.com/2018/08/ti8-main-event-bracket-day-3.png?w=833");
+    width: 78%;
+    height:640px;
+    float:left;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#info{
+    background-image: url("data:image/png;base64,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");
+    width: 78%;
+    height:640px;
+    float:left;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#teambc{
+    background-image: url("https://wocup.ga/wp-content/uploads/2018/08/groups_ti8.jpg");
+    width: 58%;
+    height:640px;
+    float:left;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+#sub_content{
+    background-color: bisque;
+    width: 20%;
+    height:5%px;
+    float:left;
+}
+
+#heroattr{
+    stroke: black;
+    stroke-width: 2px;
+    font-family: "Al Bayan";
+    font-size: 100%;
+
+}
+
+#graph{
+    background-color: bisque;
+    width: 20%;
+    height:640px;
+    float:left;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+
+    padding:5px;
+}
+#heroname{
+    font-family:Georgia;
+    fill:red;
+    font-size: 12px;
+}
