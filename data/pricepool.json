@@ -1,0 +1,175 @@
+[
+	{
+		"year":"2018",
+		"condition":[
+				{
+				"region":"CHN",
+				"direct":["PSG.LGD" "Vici Gaming" "Newbee" "VGJ.Thunder"],
+				"qualify":["Invictus Gaming" "Team Serenity"]
+				},
+				{
+				"region":"EU",
+				"direct":["Team Liquid","Team Secret"],
+				"qualify":["OG"]
+				},
+				{
+				"region":"NA",
+				"direct":[],
+				"qualify":["VGJ.Storm","Evil Geniuses","OpTic Gaming"]
+				},
+				{
+				"region":"SA",
+				"direct":[],
+				"qualify":["paiN Gaming"]
+				},
+				{
+				"region":"CIS",
+				"direct":["Virtus.pro"],
+				"qualify":["Winstrike Team"]
+				},
+				{
+				"region":"SEA",
+				"direct":["Mineski"],
+				"qualify":["Fnatic","TNC Predator"]
+				}
+		],
+		"value":[
+				{	
+				"team":"OG",
+				"place":"1",
+			    "prize":11234158,
+				"percent":0.44
+				},
+				{
+				"team":"PSG.LGD",
+				"place":"2",
+			    "prize":4085148,
+				"percent":0.16				
+				},
+				{
+				"team":"Evil Geniuses",
+				"place":"3",
+			    "prize":2680879,
+				"percent":0.105
+				},
+				{
+				"team":"Team Liquid",
+				"place":"4",
+			    "prize":1787252,
+				"percent":0.07				
+				},
+				{	
+				"team":"Team Secret",
+				"place":"5",
+			    "prize":1148949,
+				"percent":0.045
+				},
+				{
+				"team":"Virtus.pro",
+				"place":"6",
+			    "prize":1148949,
+				"percent":0.045				
+				},
+				{
+				"team":"OpTic Gaming",
+				"place":"7",
+			    "prize":638304,
+				"percent":0.025
+				},
+				{
+				"team":"VGJ.Storm",
+				"place":"8",
+			    "prize":638304,
+				"percent":0.025				
+				},
+				{	
+				"team":"Mineski",
+				"place":"9",
+			    "prize":382983,
+				"percent":0.015
+				},
+				{
+				"team":"Team Serenity",
+				"place":"10",
+			    "prize":382983,
+				"percent":0.015				
+				},
+				{
+				"team":"Vici Gaming",
+				"place":"11",
+			    "prize":382983,
+				"percent":0.015	
+				},
+				{
+				"team":"Winstrike Team",
+				"place":"12",
+			    "prize":382983,
+				"percent":0.015					
+				},
+				{	
+				"team":"Fnatic",
+				"place":"13",
+			    "prize":127661,
+				"percent":0.005
+				},
+				{
+				"team":"Newbee",
+				"place":"14",
+			    "prize":127661,
+				"percent":0.005				
+				},
+				{
+				"team":"TNC Predator",
+				"place":"15",
+			    "prize":127661,
+				"percent":0.005	
+				},
+				{
+				"team":"VGJ.Thunder",
+				"place":"16",
+			    "prize":127661,
+				"percent":0.005				
+				},
+				{
+				"team":"Invictus Gaming",
+				"place":"17",
+			    "prize":63830,
+				"percent":0.00025	
+				},
+				{
+				"team":"paiN Gaming",
+				"place":"18",
+			    "prize":63830,
+				"percent":0.00025			
+				}								
+		]
+	},
+	{
+		"year":"2017"
+		"value":{
+		
+		}
+	
+	},
+	{
+		"year":"2016"
+		"value":{
+		
+		}
+	
+	},
+	{
+		"year":"2015"
+		"value":{
+		
+		}
+	
+	},	
+	{
+		"year":"2014"
+		"value":{
+		
+		}
+	
+	}
+]
