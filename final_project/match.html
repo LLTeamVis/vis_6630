@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>test-group_stage</title>
+    <script src="https://d3js.org/d3.v5.js"></script>
+</head>
+
+<body>
+
+<div style='float:left; width:50%'>
+    Group A
+    <div id='group_A'>
+        <table>
+            <tr><td><img src='figs/IG.png' title='Invictus Gaming' height=45 width=45></td><td></td><td id='ig-lgd'></td><td id='ig-eg'></td><td id='ig-tl'></td><td id='ig-fn'></td><td id='ig-mn'></td><td id='ig-og'></td><td id='ig-vgjt'></td><td id='ig-ws'></td></tr>
+            <tr><td><img src='figs/PSG.LGD.png' title='PSG.LGD' height=45 width=45></td><td id='lgd-ig'></td><td></td><td id='lgd-eg'></td><td id='lgd-tl'></td><td id='lgd-fn'></td><td id='lgd-mn'></td><td id='lgd-og'></td><td id='lgd-vgjt'></td><td id='lgd-ws'></td></tr>
+            <tr><td><img src='figs/Evil_Geniuses.png' title='Evil Geniuses' height=45 width=45></td><td id='eg-ig'></td><td id='eg-lgd'></td><td></td><td id='eg-tl'></td><td id='eg-fn'></td><td id='eg-mn'></td><td id='eg-og'></td><td id='eg-vgjt'></td><td id='eg-ws'></td></tr>
+            <tr><td><img src='figs/Team_liquid.png' title='Team Liquid' height=45 width=45></td><td id='tl-ig'></td><td id='tl-lgd'></td><td id='tl-eg'></td><td></td><td id='tl-fn'></td><td id='tl-mn'></td><td id='tl-og'></td><td id='tl-vgjt'></td><td id='tl-ws'></td></tr>
+            <tr><td><img src='figs/Fnatic.png' title='Fnatic' height=45 width=45></td><td id='fn-ig'></td><td id='fn-lgd'></td><td id='fn-eg'></td><td id='fn-tl'></td><td></td><td id='fn-mn'></td><td id='fn-og'></td><td id='fn-vgjt'></td><td id='fn-ws'></td></tr>
+            <tr><td><img src='figs/Mineski.png' title='Mineski' height=45 width=45></td><td id='mn-ig'></td><td id='mn-lgd'></td><td id='mn-eg'></td><td id='mn-tl'></td><td id='mn-fn'></td><td></td><td id='mn-og'></td><td id='mn-vgjt'></td><td id='mn-ws'></td></tr>
+            <tr><td><img src='figs/OG.png' title='OG' height=45 width=45></td><td id='og-ig'></td><td id='og-lgd'></td><td id='og-eg'></td><td id='og-tl'></td><td id='og-fn'></td><td id='og-mn'></td><td></td><td id='og-vgjt'></td><td id='og-ws'></td></tr>
+            <tr><td><img src='figs/VGJ.Thunder.png' title='VGJ.Thunder' height=45 width=45></td><td id='vgjt-ig'></td><td id='vgjt-lgd'></td><td id='vgjt-eg'></td><td id='vgjt-tl'></td><td id='vgjt-fn'></td><td id='vgjt-mn'></td><td id='vgjt-og'></td><td></td><td id='vgjt-ws'></td></tr>
+            <tr><td><img src='figs/Winstrike_Team.png' title='Winstrike Team' height=45 width=45></td><td id='ws-ig'></td><td id='ws-lgd'></td><td id='ws-eg'></td><td id='ws-tl'></td><td id='ws-fn'></td><td id='ws-mn'></td><td id='ws-og'></td><td id='ws-vgjt'></td><td></td></tr>
+            <tr><td></td><td><img src='figs/IG.png' title='Invictus Gaming' height=45 width=45></td>
+                <td><img src='figs/PSG.LGD.png' title='PSG.LGD' height=45 width=45></td>
+                <td><img src='figs/Evil_Geniuses.png' title='Evil Geniuses' height=45 width=45></td>
+                <td><img src='figs/Team_liquid.png' title='Team Liquid' height=45 width=45></td>
+                <td><img src='figs/Fnatic.png' title='Fnatic' height=45 width=45></td>
+                <td><img src='figs/Mineski.png' title='Mineski' height=45 width=45></td>
+                <td><img src='figs/OG.png' title='OG' height=45 width=45></td>
+                <td><img src='figs/VGJ.Thunder.png' title='VGJ.Thunder' height=45 width=45></td>
+                <td><img src='figs/Winstrike_Team.png' title='Winstrike Team' height=45 width=45></td></tr>
+        </table>
+    </div>
+</div>
+<div style='float:left; width:50%'>
+    Group B
+    <div id='group_B'>
+            <table>
+                    <tr><td><img src='figs/PaiN_Gaming.png' title='pain Gaming' height=45 width=45></td><td></td><td id='pg-vg'></td><td id='pg-nb'></td><td id='pg-se'></td><td id='pg-vp'></td><td id='pg-tnc'></td><td id='pg-op'></td><td id='pg-ts'></td><td id='pg-vgjs'></td></tr>
+                    <tr><td><img src='figs/VICI_Gaming.png' title='Vici Gaming' height=45 width=45></td><td id='vg-pg'></td><td></td><td id='vg-nb'></td><td id='vg-se'></td><td id='vg-vp'></td><td id='vg-tnc'></td><td id='vg-op'></td><td id='vg-ts'></td><td id='vg-vgjs'></td></tr>
+                    <tr><td><img src='figs/Newbee.png' title='Newbee' height=45 width=45></td><td id='nb-pg'></td><td id='nb-vg'></td><td></td><td id='nb-se'></td><td id='nb-vp'></td><td id='nb-tnc'></td><td id='nb-op'></td><td id='nb-ts'></td><td id='nb-vgjs'></td></tr>
+                    <tr><td><img src='figs/Team_Secret.png' title='Team Secret' height=45 width=45></td><td id='se-pg'></td><td id='se-vg'></td><td id='se-nb'></td><td></td><td id='se-vp'></td><td id='se-tnc'></td><td id='se-op'></td><td id='se-ts'></td><td id='se-vgjs'></td></tr>
+                    <tr><td><img src='figs/Vp.png' title='Virtus.pro' height=45 width=45></td><td id='vp-pg'></td><td id='vp-vg'></td><td id='vp-nb'></td><td id='vp-se'></td><td></td><td id='vp-tnc'></td><td id='vp-op'></td><td id='vp-ts'></td><td id='vp-vgjs'></td></tr>
+                    <tr><td><img src='figs/Tnc.png' title='TNC Predator' height=45 width=45></td><td id='tnc-pg'></td><td id='tnc-vg'></td><td id='tnc-nb'></td><td id='tnc-se'></td><td id='tnc-vp'></td><td></td><td id='tnc-op'></td><td id='tnc-ts'></td><td id='tnc-vgjs'></td></tr>
+                    <tr><td><img src='figs/OpTic_Gaming.png' title='OpTic Gaming' height=45 width=45></td><td id='op-pg'></td><td id='op-vg'></td><td id='op-nb'></td><td id='op-se'></td><td id='op-vp'></td><td id='op-tnc'></td><td></td><td id='op-ts'></td><td id='op-vgjs'></td></tr>
+                    <tr><td><img src='figs/Team_Serenity.png' title='Team Serenity' height=45 width=45></td><td id='ts-pg'></td><td id='ts-vg'></td><td id='ts-nb'></td><td id='ts-se'></td><td id='ts-vp'></td><td id='ts-tnc'></td><td id='ts-op'></td><td></td><td id='ts-vgjs'></td></tr>
+                    <tr><td><img src='figs/VGJ.Storm.png' title='VGJ.Storm' height=45 width=45></td><td id='vgjs-pg'></td><td id='vgjs-vg'></td><td id='vgjs-nb'></td><td id='vgjs-se'></td><td id='vgjs-vp'></td><td id='vgjs-tnc'></td><td id='vgjs-op'></td><td id='vgjs-ts'></td><td></td></tr>
+                    <tr><td></td><td><img src='figs/PaiN_Gaming.png' title='pain Gaming' height=45 width=45></td>
+                        <td><img src='figs/VICI_Gaming.png' title='Vici Gaming' height=45 width=45></td>
+                        <td><img src='figs/Newbee.png' title='Newbee' height=45 width=45></td>
+                        <td><img src='figs/Team_Secret.png' title='Team Secret' height=45 width=45></td>
+                        <td><img src='figs/Vp.png' title='Virtus.pro' height=45 width=45></td>
+                        <td><img src='figs/Tnc.png' title='TNC Predator' height=45 width=45></td>
+                        <td><img src='figs/OpTic_Gaming.png' title='OpTic Gaming' height=45 width=45></td>
+                        <td><img src='figs/Team_Serenity.png' title='Team Serenity' height=45 width=45></td>
+                        <td><img src='figs/VGJ.Storm.png' title='VGJ.Storm' height=45 width=45 width=45></td></tr>
+                </table>
+    </div>
+</div>
+<script>
+    d3.csv('../data/Group_Stage.csv').then(data=>{
+    data.map(d=>{
+        var id=d.Id;
+        var width=45;
+        var scale=d3.scaleOrdinal().domain(['0:2','1:1','2:0']).range(['LightPink','LightYellow','LightSkyBlue']);
+        let svg=d3.select('#'+id).append('svg').attr('width',width*1.1).attr('height',width*1.1);
+        svg.append('rect').attr('width',width).attr('height',width).style('fill',scale(d.Score));
+        svg.append('text').text(d.Score).attr('x',width*0.25).attr('y',width*0.6);
+        svg.append('title')
+        .text(d.Team_A+' '+d.Score+' '+d.Team_B+'\n Heros: \n Game 1: '+d.G1H1+' '+d.G1H2+' '+d.G1H3+' '+d.G1H4+' '+d.G1H5+' versus '+d.G1H6+' '+d.G1H7+' '+d.G1H8+' '+d.G1H9+' '+d.G1H10+'\n Game 2: '+d.G2H1+' '+d.G2H2+' '+d.G2H3+' '+d.G2H4+' '+d.G2H5+' versus '+d.G2H6+' '+d.G2H7+' '+d.G2H8+' '+d.G2H9+' '+d.G2H10)
+        .style('white-space','pre');
+
+        svg=d3.select('#'+d.Id_ins).append('svg').attr('width',width*1.1).attr('height',width*1.1);
+        svg.append('rect').attr('width',width).attr('height',width).style('fill',scale(d.Score.toString().split('').reverse().join('')));
+        svg.append('text').text(d.Score.toString().split('').reverse().join('')).attr('x',width*0.25).attr('y',width*0.6);
+        svg.append('title')
+        .text(d.Team_A+' '+d.Score+' '+d.Team_B+'\n Heros: \n Game 1: '+d.G1H1+' '+d.G1H2+' '+d.G1H3+' '+d.G1H4+' '+d.G1H5+' versus '+d.G1H6+' '+d.G1H7+' '+d.G1H8+' '+d.G1H9+' '+d.G1H10+'\n Game 2: '+d.G2H1+' '+d.G2H2+' '+d.G2H3+' '+d.G2H4+' '+d.G2H5+' versus '+d.G2H6+' '+d.G2H7+' '+d.G2H8+' '+d.G2H9+' '+d.G2H10)
+        .style('white-space','pre');
+    });
+});
+</script>
+</body>
+</html>

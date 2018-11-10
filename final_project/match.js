@@ -1,9 +1,10 @@
 function match(){
 
     document.getElementById("right").innerHTML='';
-
-    var div = document.createElement("div");
-    div.id = "matchbc";
-    document.getElementById("right").appendChild(div);
-
+    var iframe=document.createElement('iframe');
+    iframe.setAttribute('src','match.html');
+    iframe.setAttribute('width','78%');
+    iframe.setAttribute('height','640px');
+    iframe.setAttribute('float','left');
+    document.getElementById("right").appendChild(iframe);
 }
