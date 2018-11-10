@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Team_A,A_G1,A_G2,Team_B,B_G1,B_G2,Id,Id_ins,Score,G1H1,G1H2,G1H3,G1H4,G1H5,G1H6,G1H7,G1H8,G1H9,G1H10,G2H1,G2H2,G2H3,G2H4,G2H5,G2H6,G2H7,G2H8,G2H9,G2H10,Group
 Team Liquid,1,0,Fnatic,0,1,tl-fn,fn-tl,1:1,EarthShaker,Crystal Maiden,Broodmother,Pugna,Spectre,Io,Gyrocopter,Bane,Tiny,Enigma,Vengeful Spirit,Bloodseeker,Shadow Shaman,Huskar,Omniknight,Weaver,Winter Wyvern,Wraith King,Dark Willow,Clinkz,A
 PSG.LGD,1,0,OG,0,1,lgd-og,og-lgd,1:1,Io,Gyrocopter,Wraith King,Lina,Lion,Vengeful Spirit,Weaver,Warlock,Monkey King,Skywrath Mage,Io,Necrophos,Lion,Wraith King,Gyrocopter,Silencer,Morphling,Earthshaker,Nature's Prophet,Invoker,A
@@ -72,7 +71,6 @@ Newbee,1,1,Team Secret,0,0,nb-se,se-nb,2:0,Mirana,Wraith King,Winter Wyvern,Ursa
 Virtus.pro,1,1,VGJ.Storm,0,0,vp-vgjs,vgjs-vp,2:0,Chen,Ursa,Vengeful Spirit,Pugna,Doom,Necrophos,Enigma,Crystal Maiden,Phantom Lancer,Tiny,Weaver,Dark Willow,Tiny,Oracle,Gyrocopter,Necrophos,Nyx Assassin,Undying,Nature's Prophet,Arc Warden,B
 Vici Gaming,0,0,OpTic Gaming,1,1,vg-op,op-vg,0:2,Crystal Maiden,Ursa,Lina,Magnus,Phantom Lancer,Enchantress,Tiny,Vengeful Spirit,Venomancer,Templar Assassin,Tiny,Bane,Spectre,Winter Wyvern,Legion Commander,Vengeful Spirit,Mirana,Clinkz,Chen,Wraith King,B
 paiN Gaming,0,0,Team Serenity,1,1,pg-ts,ts-pg,0:2,Crystal Maiden,Ember Spirit,Earthshaker,Enigma,Razor,Lich,Phantom Lancer,Wraith King,Huskar,Faceless Void,Silencer,Magnus,Clockwerk,Invoker,Faceless Void,Crystal Maiden,Nyx Assassin,Clinkz,Mirana,Bloodseeker,B
-=======
 Team_A,A_G1,A_G2,Team_B,B_G1,B_G2,Id,Id_ins,Score,G1H1,G1H2,G1H3,G1H4,G1H5,G1H6,G1H7,G1H8,G1H9,G1H10,G2H1,G2H2,G2H3,G2H4,G2H5,G2H6,G2H7,G2H8,G2H9,G2H10,Group
 Team Liquid,1,0,Fnatic,0,1,tl-fn,fn-tl,1:1,EarthShaker,Crystal Maiden,Broodmother,Pugna,Spectre,Io,Gyrocopter,Bane,Tiny,Enigma,Vengeful Spirit,Bloodseeker,Shadow Shaman,Huskar,Omniknight,Weaver,Winter Wyvern,Wraith King,Dark Willow,Clinkz,A
 PSG.LGD,1,0,OG,0,1,lgd-og,og-lgd,1:1,Io,Gyrocopter,Wraith King,Lina,Lion,Vengeful Spirit,Weaver,Warlock,Monkey King,Skywrath Mage,Io,Necrophos,Lion,Wraith King,Gyrocopter,Silencer,Morphling,Earthshaker,Nature's Prophet,Invoker,A
@@ -146,4 +144,3 @@ Newbee,1,1,Team Secret,0,0,nb-se,se-nb,2:0,Mirana,Wraith King,Winter Wyvern,Ursa
 Virtus.pro,1,1,VGJ.Storm,0,0,vp-vgjs,vgjs-vp,2:0,Chen,Ursa,Vengeful Spirit,Pugna,Doom,Necrophos,Enigma,Crystal Maiden,Phantom Lancer,Tiny,Weaver,Dark Willow,Tiny,Oracle,Gyrocopter,Necrophos,Nyx Assassin,Undying,Nature's Prophet,Arc Warden,B
 Vici Gaming,0,0,OpTic Gaming,1,1,vg-op,op-vg,0:2,Crystal Maiden,Ursa,Lina,Magnus,Phantom Lancer,Enchantress,Tiny,Vengeful Spirit,Venomancer,Templar Assassin,Tiny,Bane,Spectre,Winter Wyvern,Legion Commander,Vengeful Spirit,Mirana,Clinkz,Chen,Wraith King,B
 paiN Gaming,0,0,Team Serenity,1,1,pg-ts,ts-pg,0:2,Crystal Maiden,Ember Spirit,Earthshaker,Enigma,Razor,Lich,Phantom Lancer,Wraith King,Huskar,Faceless Void,Silencer,Magnus,Clockwerk,Invoker,Faceless Void,Crystal Maiden,Nyx Assassin,Clinkz,Mirana,Bloodseeker,B
->>>>>>> fc8de4ed35c871c05efdde3eee2ee91faa79ed0c
