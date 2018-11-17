@@ -477,7 +477,7 @@
         })
         .html(d=>{
             let id=1;
-            let text='';
+            let text=d.Team_A+' '+d.Wins+' vs '+d.Loses+' '+d.Team_B+'<br/>';
             
             while(parseInt(d['A_G'+id.toString()])||parseInt(d['B_G'+id.toString()])){
                 let t='';//256 144 io=wisp Nature's Prophet=furion Clockwerk=rattletrap Wraith King=skeleton_king 256=16*16 144=16*9
