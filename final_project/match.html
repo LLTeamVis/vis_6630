@@ -81,7 +81,7 @@
 <h3>Main Event</h3>>
 </div>
 <div id='main_event' style='float:left;width:100%'>
-    <svg width=1800 height=1400>
+    <svg width=1100 height=1000>
         <g transform='translate(150,0)'>
                 <rect x='0' y='0' width='120' height='30' class='main_event_rect'></rect>
                 <text y='20' x='0' class='main_event_text'>  Upper Bracket R1</text>          
@@ -392,11 +392,13 @@
     data.map(d=>{
         let tip=d3.tip()
         .attr('class','d3-tip')
-        .direction('se')
+        .direction(function(d){
+            if(d.Group=='A') return 'se';
+            else return 'sw';
+        })
         .html(d=>{
             let id=1;
-            let text='';
-            console.log(d);
+            let text=d.Team_A+'  vs  '+d.Team_B+'<br/>';
             
             while(parseInt(d['A_G'+id.toString()])||parseInt(d['B_G'+id.toString()])){
                 let t='';//256 144 io=wisp Nature's Prophet=furion Clockwerk=rattletrap Wraith King=skeleton_king 256=16*16 144=16*9
@@ -422,6 +424,10 @@
                         case 'Necrophos':hero='necrolyte';break;
                         case 'Windranger':hero='windrunner';break;
                         case 'Treant Protector':hero='treant';break;
+                        case 'Outworld Devourer':hero='obsidian_destroyer';break;
+                        case 'Doom':hero='doom_bringer';break;
+                        case 'Lifestealer':hero='life_stealer';break;
+                        case 'Anti-Mage':hero='antimage';break;
                         default: 
                     };
                     hero=hero.replace(/ /g,'_');
@@ -465,11 +471,13 @@
         
         let tip=d3.tip()
         .attr('class','d3-tip')
-        .direction('se')
+        .direction(function(d){
+            if(d.Game=='lgd-og'||d.Game=='og-lgd'||d.Game=='lgd-eg') return 'sw';
+            else return 'se';
+        })
         .html(d=>{
             let id=1;
             let text='';
-            console.log(d);
             
             while(parseInt(d['A_G'+id.toString()])||parseInt(d['B_G'+id.toString()])){
                 let t='';//256 144 io=wisp Nature's Prophet=furion Clockwerk=rattletrap Wraith King=skeleton_king 256=16*16 144=16*9
@@ -495,6 +503,10 @@
                         case 'Necrophos':hero='necrolyte';break;
                         case 'Windranger':hero='windrunner';break;
                         case 'Treant Protector':hero='treant';break;
+                        case 'Outworld Devourer':hero='obsidian_destroyer';break;
+                        case 'Doom':hero='doom_bringer';break;
+                        case 'Lifestealer':hero='life_stealer';break;
+                        case 'Anti-Mage':hero='antimage';break;
                         default: 
                     };
                     hero=hero.replace(/ /g,'_');
