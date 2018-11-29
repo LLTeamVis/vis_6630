@@ -7,9 +7,11 @@
     <script src="https://d3js.org/d3.v5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
     <style type="text/css">
-        .main_event_rect {fill:white; stroke:black}
+        .main_event_rect {fill:	WhiteSmoke; stroke:gray}
         .main_event_text {font-size:12px; white-space: pre;}
         .main_event_text_win {font-weight:bold}
+        .main_event_rect_win {fill:lightSkyblue}
+        .main_event_rect_lose {fill:LightPink}
         .d3-tip {
             line-height: 2;
             padding-left: 10px;
@@ -22,6 +24,7 @@
             border-radius: 10px;
             pointer-events: none;
         }
+        
     </style>
 </head>
 
@@ -144,8 +147,8 @@
         <path style="stroke:steelblue; fill:none" d='M690 650 L830 650'></path>
         <path style="stroke:steelblue; fill:none" d='M830 635 L900 450'></path>
         <g transform='translate(150,50)' id='tl-op'>
-                <rect x='0' y='0' width='100' height='30' class='main_event_rect'></rect>
-                <rect x='0' y='30' width='100' height='30' class='main_event_rect'></rect>
+                <rect x='0' y='0' width='100' height='30' class='main_event_rect_win'></rect>
+                <rect x='0' y='30' width='100' height='30' class='main_event_rect_lose'></rect>
                 <text y='20' x='5' class='main_event_text main_event_text_win'>Team Liquid</text>
                 <text y='50' x='5' class='main_event_text'>OpTic Gaming</text>
                 <rect x='100' y='0' width='20' height='30' class='main_event_rect'></rect>
@@ -155,8 +158,8 @@
                 <circle cx='120' cy='30' r='5'></circle>
         </g>
         <g transform='translate(150,150)' id='vp-lgd'>
-                <rect x='0' y='0' width='100' height='30' class='main_event_rect'></rect>
-                <rect x='0' y='30' width='100' height='30' class='main_event_rect'></rect>
+                <rect x='0' y='0' width='100' height='30' class='main_event_rect_lose'></rect>
+                <rect x='0' y='30' width='100' height='30' class='main_event_rect_win'></rect>
                 <text y='20' x='5' class='main_event_text'>Virtus.pro</text>
                 <text y='50' x='5' class='main_event_text  main_event_text_win'>PSG.LGD</text>
                 <rect x='100' y='0' width='20' height='30' class='main_event_rect'></rect>
@@ -166,8 +169,8 @@
                 <circle cx='120' cy='30' r='5'></circle>
         </g>
         <g transform='translate(150,250)' id='vgjs-og'>
-                <rect x='0' y='0' width='100' height='30' class='main_event_rect'></rect>
-                <rect x='0' y='30' width='100' height='30' class='main_event_rect'></rect>
+                <rect x='0' y='0' width='100' height='30' class='main_event_rect_lose'></rect>
+                <rect x='0' y='30' width='100' height='30' class='main_event_rect_win'></rect>
                 <text y='20' x='5' class='main_event_text'>VGJ.Storm</text>
                 <text y='50' x='5' class='main_event_text  main_event_text_win'>OG</text>
                 <rect x='100' y='0' width='20' height='30' class='main_event_rect'></rect>
@@ -177,8 +180,8 @@
                 <circle cx='120' cy='30' r='5'></circle>
         </g>
         <g transform='translate(150,350)' id='eg-se'>
-                <rect x='0' y='0' width='100' height='30' class='main_event_rect'></rect>
-                <rect x='0' y='30' width='100' height='30' class='main_event_rect'></rect>
+                <rect x='0' y='0' width='100' height='30' class='main_event_rect_win'></rect>
+                <rect x='0' y='30' width='100' height='30' class='main_event_rect_lose'></rect>
                 <text y='20' x='5' class='main_event_text  main_event_text_win'>Evil Geniuses</text>
                 <text y='50' x='5' class='main_event_text'>Team Secret</text>
                 <rect x='100' y='0' width='20' height='30' class='main_event_rect'></rect>
@@ -188,8 +191,8 @@
                 <circle cx='120' cy='30' r='5'></circle>
         </g>
         <g transform='translate(430,100)' id='tl-lgd'>
-                <rect x='0' y='0' width='100' height='30' class='main_event_rect'></rect>
-                <rect x='0' y='30' width='100' height='30' class='main_event_rect'></rect>
+                <rect x='0' y='0' width='100' height='30' class='main_event_rect_lose'></rect>
+                <rect x='0' y='30' width='100' height='30' class='main_event_rect_win'></rect>
                 <text y='20' x='5' class='main_event_text'>Team Liquid</text>
                 <text y='50' x='5' class='main_event_text  main_event_text_win'>PSG.LGD</text>
                 <rect x='100' y='0' width='20' height='30' class='main_event_rect'></rect>
@@ -199,8 +202,8 @@
                 <circle cx='120' cy='30' r='5'></circle>
         </g>
         <g transform='translate(430,300)' id='og-eg'>
-                <rect x='0' y='0' width='100' height='30' class='main_event_rect'></rect>
-                <rect x='0' y='30' width='100' height='30' class='main_event_rect'></rect>
+                <rect x='0' y='0' width='100' height='30' class='main_event_rect_win'></rect>
+                <rect x='0' y='30' width='100' height='30' class='main_event_rect_lose'></rect>
                 <text y='20' x='5' class='main_event_text  main_event_text_win'>OG</text>
                 <text y='50' x='5' class='main_event_text'>Evil Geniuses</text>
                 <rect x='100' y='0' width='20' height='30' class='main_event_rect'></rect>
@@ -210,8 +213,8 @@
                 <circle cx='120' cy='30' r='5'></circle>
         </g>
         <g transform='translate(710,200)' id='lgd-og'>
-                <rect x='0' y='0' width='100' height='30' class='main_event_rect'></rect>
-                <rect x='0' y='30' width='100' height='30' class='main_event_rect'></rect>
+                <rect x='0' y='0' width='100' height='30' class='main_event_rect_lose'></rect>
+                <rect x='0' y='30' width='100' height='30' class='main_event_rect_win'></rect>
                 <text y='20' x='5' class='main_event_text'>PSG.LGD</text>
                 <text y='50' x='5' class='main_event_text  main_event_text_win'>OG</text>
                 <rect x='100' y='0' width='20' height='30' class='main_event_rect'></rect>
@@ -221,8 +224,8 @@
                 <circle cx='120' cy='30' r='5'></circle>
         </g>
         <g transform='translate(900,405)' id='og-lgd'>
-                <rect x='0' y='0' width='100' height='30' class='main_event_rect'></rect>
-                <rect x='0' y='30' width='100' height='30' class='main_event_rect'></rect>
+                <rect x='0' y='0' width='100' height='30' class='main_event_rect_win'></rect>
+                <rect x='0' y='30' width='100' height='30' class='main_event_rect_lose'></rect>
                 <text y='20' x='5' class='main_event_text  main_event_text_win'>OG</text>
                 <text y='50' x='5' class='main_event_text'>PSG.LGD</text>
                 <rect x='100' y='0' width='20' height='30' class='main_event_rect'></rect>
@@ -232,8 +235,8 @@
                 <circle cx='120' cy='30' r='5'></circle>
         </g>
         <g transform='translate(10,500)' id='fn-ts'>
-            <rect x='0' y='0' width='100' height='30' class='main_event_rect'></rect>
-            <rect x='0' y='30' width='100' height='30' class='main_event_rect'></rect>
+            <rect x='0' y='0' width='100' height='30' class='main_event_rect_lose'></rect>
+            <rect x='0' y='30' width='100' height='30' class='main_event_rect_win'></rect>
             <text y='20' x='5' class='main_event_text'>Fnatic</text>
             <text y='50' x='5' class='main_event_text main_event_text_win'>Team Serenity</text>
             <rect x='100' y='0' width='20' height='30' class='main_event_rect'></rect>
@@ -243,8 +246,8 @@
             <circle cx='120' cy='30' r='5'></circle>
         </g>
         <g transform='translate(10,600)' id='tnc-mn'>
-                <rect x='0' y='0' width='100' height='30' class='main_event_rect'></rect>
-                <rect x='0' y='30' width='100' height='30' class='main_event_rect'></rect>
+                <rect x='0' y='0' width='100' height='30' class='main_event_rect_lose'></rect>
+                <rect x='0' y='30' width='100' height='30' class='main_event_rect_win'></rect>
                 <text y='20' x='5' class='main_event_text'>TNC Predator</text>
                 <text y='50' x='5' class='main_event_text main_event_text_win'>Mineski</text>
                 <rect x='100' y='0' width='20' height='30' class='main_event_rect'></rect>
@@ -254,8 +257,8 @@
                 <circle cx='120' cy='30' r='5'></circle>
         </g>
         <g transform='translate(10,700)' id='nb-ws'>
-                <rect x='0' y='0' width='100' height='30' class='main_event_rect'></rect>
-                <rect x='0' y='30' width='100' height='30' class='main_event_rect'></rect>
+                <rect x='0' y='0' width='100' height='30' class='main_event_rect_lose'></rect>
+                <rect x='0' y='30' width='100' height='30' class='main_event_rect_win'></rect>
                 <text y='20' x='5' class='main_event_text'>Newbee</text>
                 <text y='50' x='5' class='main_event_text main_event_text_win'>Winstrike Team</text>
                 <rect x='100' y='0' width='20' height='30' class='main_event_rect'></rect>
@@ -265,8 +268,8 @@
                 <circle cx='120' cy='30' r='5'></circle>
         </g>
         <g transform='translate(10,800)' id='vgjt-vg'>
-                <rect x='0' y='0' width='100' height='30' class='main_event_rect'></rect>
-                <rect x='0' y='30' width='100' height='30' class='main_event_rect'></rect>
+                <rect x='0' y='0' width='100' height='30' class='main_event_rect_lose'></rect>
+                <rect x='0' y='30' width='100' height='30' class='main_event_rect_win'></rect>
                 <text y='20' x='5' class='main_event_text'>VGJ.Thunder</text>
                 <text y='50' x='5' class='main_event_text main_event_text_win'>Vici_Gaming</text>
                 <rect x='100' y='0' width='20' height='30' class='main_event_rect'></rect>
@@ -276,8 +279,8 @@
                 <circle cx='120' cy='30' r='5'></circle>
         </g>
         <g transform='translate(150,485)' id='op-ts'>
-                <rect x='0' y='0' width='100' height='30' class='main_event_rect'></rect>
-                <rect x='0' y='30' width='100' height='30' class='main_event_rect'></rect>
+                <rect x='0' y='0' width='100' height='30' class='main_event_rect_win'></rect>
+                <rect x='0' y='30' width='100' height='30' class='main_event_rect_lose'></rect>
                 <text y='20' x='5' class='main_event_text main_event_text_win'>OpTic Gaming</text>
                 <text y='50' x='5' class='main_event_text'>Team Serenity</text>
                 <rect x='100' y='0' width='20' height='30' class='main_event_rect'></rect>
@@ -287,8 +290,8 @@
                 <circle cx='120' cy='30' r='5'></circle>
         </g>
         <g transform='translate(150,585)' id='vp-mn'>
-                <rect x='0' y='0' width='100' height='30' class='main_event_rect'></rect>
-                <rect x='0' y='30' width='100' height='30' class='main_event_rect'></rect>
+                <rect x='0' y='0' width='100' height='30' class='main_event_rect_win'></rect>
+                <rect x='0' y='30' width='100' height='30' class='main_event_rect_lose'></rect>
                 <text y='20' x='5' class='main_event_text main_event_text_win'>Virtus.pro</text>
                 <text y='50' x='5' class='main_event_text'>Mineski</text>
                 <rect x='100' y='0' width='20' height='30' class='main_event_rect'></rect>
@@ -298,8 +301,8 @@
                 <circle cx='120' cy='30' r='5'></circle>
         </g>
         <g transform='translate(150,685)' id='vgjs-ws'>
-                <rect x='0' y='0' width='100' height='30' class='main_event_rect'></rect>
-                <rect x='0' y='30' width='100' height='30' class='main_event_rect'></rect>
+                <rect x='0' y='0' width='100' height='30' class='main_event_rect_win'></rect>
+                <rect x='0' y='30' width='100' height='30' class='main_event_rect_lose'></rect>
                 <text y='20' x='5' class='main_event_text main_event_text_win'>VGJ.Storm</text>
                 <text y='50' x='5' class='main_event_text'>Winstrike Team</text>
                 <rect x='100' y='0' width='20' height='30' class='main_event_rect'></rect>
@@ -309,8 +312,8 @@
                 <circle cx='120' cy='30' r='5'></circle>
         </g>
         <g transform='translate(150,785)' id='se-vg'>
-                <rect x='0' y='0' width='100' height='30' class='main_event_rect'></rect>
-                <rect x='0' y='30' width='100' height='30' class='main_event_rect'></rect>
+                <rect x='0' y='0' width='100' height='30' class='main_event_rect_win'></rect>
+                <rect x='0' y='30' width='100' height='30' class='main_event_rect_lose'></rect>
                 <text y='20' x='5' class='main_event_text main_event_text_win'>Team Secret</text>
                 <text y='50' x='5' class='main_event_text'>Vici Gaming</text>
                 <rect x='100' y='0' width='20' height='30' class='main_event_rect'></rect>
@@ -320,8 +323,8 @@
                 <circle cx='120' cy='30' r='5'></circle>
         </g>
         <g transform='translate(290,535)' id='op-vp'>
-                <rect x='0' y='0' width='100' height='30' class='main_event_rect'></rect>
-                <rect x='0' y='30' width='100' height='30' class='main_event_rect'></rect>
+                <rect x='0' y='0' width='100' height='30' class='main_event_rect_lose'></rect>
+                <rect x='0' y='30' width='100' height='30' class='main_event_rect_win'></rect>
                 <text y='20' x='5' class='main_event_text'>OpTic Gaming</text>
                 <text y='50' x='5' class='main_event_text main_event_text_win'>Virtus.pro</text>
                 <rect x='100' y='0' width='20' height='30' class='main_event_rect'></rect>
@@ -331,8 +334,8 @@
                 <circle cx='120' cy='30' r='5'></circle>
         </g>
         <g transform='translate(290,735)' id='vgjs-se'>
-                <rect x='0' y='0' width='100' height='30' class='main_event_rect'></rect>
-                <rect x='0' y='30' width='100' height='30' class='main_event_rect'></rect>
+                <rect x='0' y='0' width='100' height='30' class='main_event_rect_lose'></rect>
+                <rect x='0' y='30' width='100' height='30' class='main_event_rect_win'></rect>
                 <text y='20' x='5' class='main_event_text'>VGJ.Storm</text>
                 <text y='50' x='5' class='main_event_text main_event_text_win'>Team Secret</text>
                 <rect x='100' y='0' width='20' height='30' class='main_event_rect'></rect>
@@ -342,8 +345,8 @@
                 <circle cx='120' cy='30' r='5'></circle>
         </g>
         <g transform='translate(430,520)' id='eg-vp'>
-                <rect x='0' y='0' width='100' height='30' class='main_event_rect'></rect>
-                <rect x='0' y='30' width='100' height='30' class='main_event_rect'></rect>
+                <rect x='0' y='0' width='100' height='30' class='main_event_rect_win'></rect>
+                <rect x='0' y='30' width='100' height='30' class='main_event_rect_lose'></rect>
                 <text y='20' x='5' class='main_event_text main_event_text_win'>Evil Geniuses</text>
                 <text y='50' x='5' class='main_event_text'>Virtus.pro</text>
                 <rect x='100' y='0' width='20' height='30' class='main_event_rect'></rect>
@@ -353,8 +356,8 @@
                 <circle cx='120' cy='30' r='5'></circle>
         </g>
         <g transform='translate(430,720)' id='tl-se'>
-                <rect x='0' y='0' width='100' height='30' class='main_event_rect'></rect>
-                <rect x='0' y='30' width='100' height='30' class='main_event_rect'></rect>
+                <rect x='0' y='0' width='100' height='30' class='main_event_rect_win'></rect>
+                <rect x='0' y='30' width='100' height='30' class='main_event_rect_lose'></rect>
                 <text y='20' x='5' class='main_event_text main_event_text_win'>Team Liquid</text>
                 <text y='50' x='5' class='main_event_text'>Team Secret</text>
                 <rect x='100' y='0' width='20' height='30' class='main_event_rect'></rect>
@@ -364,8 +367,8 @@
                 <circle cx='120' cy='30' r='5'></circle>
         </g>
         <g transform='translate(570,620)' id='eg-tl'>
-                <rect x='0' y='0' width='100' height='30' class='main_event_rect'></rect>
-                <rect x='0' y='30' width='100' height='30' class='main_event_rect'></rect>
+                <rect x='0' y='0' width='100' height='30' class='main_event_rect_win'></rect>
+                <rect x='0' y='30' width='100' height='30' class='main_event_rect_lose'></rect>
                 <text y='20' x='5' class='main_event_text main_event_text_win'>Evil Geniuses</text>
                 <text y='50' x='5' class='main_event_text'>Team Liquid</text>
                 <rect x='100' y='0' width='20' height='30' class='main_event_rect'></rect>
@@ -375,8 +378,8 @@
                 <circle cx='120' cy='30' r='5'></circle>
         </g>
         <g transform='translate(710,605)' id='lgd-eg'>
-                <rect x='0' y='0' width='100' height='30' class='main_event_rect'></rect>
-                <rect x='0' y='30' width='100' height='30' class='main_event_rect'></rect>
+                <rect x='0' y='0' width='100' height='30' class='main_event_rect_win'></rect>
+                <rect x='0' y='30' width='100' height='30' class='main_event_rect_lose'></rect>
                 <text y='20' x='5' class='main_event_text main_event_text_win'>PSG.LGD</text>
                 <text y='50' x='5' class='main_event_text'>Evil Geniuses</text>
                 <rect x='100' y='0' width='20' height='30' class='main_event_rect'></rect>
@@ -401,10 +404,7 @@
             let text=d.Team_A+'  vs  '+d.Team_B+'<br/>';
             
             while(parseInt(d['A_G'+id.toString()])||parseInt(d['B_G'+id.toString()])){
-                let t='';//256 144 io=wisp Nature's Prophet=furion Clockwerk=rattletrap Wraith King=skeleton_king 256=16*16 144=16*9
-                //Queen of Pain=queenofpain Vengeful Spirit=vengefulspirit Zeus=zuus Centaur Warrunner=centaur
-                //Underlord=abyssal_underlord Timbersaw=shredder Magnus=magnataur Shadow Fiend=nevermore
-                //
+                let t='';
 
                 for(let i=1;i<=10;i++){
                     hero=d['G'+id.toString()+'H'+i.toString()].toString();
@@ -432,7 +432,7 @@
                     };
                     hero=hero.replace(/ /g,'_');
                     hero=hero.toLowerCase();
-                    t=t+"<img src='http://cdn.dota2.com/apps/dota2/images/heroes/"+hero+"_full.png' width=32 height=18>";
+                    t=t+"<img src='http://cdn.dota2.com/apps/dota2/images/heroes/"+hero+"_full.png' width=48 height=27>";
                     if(i==5)
                     t=t+' '+d['A_G'+id.toString()]+' vs '+d['B_G'+id.toString()]+' ';
                 }
@@ -443,7 +443,7 @@
         });
         let id=d.Id;
         let width=45;
-        let scale=d3.scaleOrdinal().domain(['0:2','1:1','2:0']).range(['LightPink','LightYellow','LightSkyBlue']);
+        let scale=d3.scaleOrdinal().domain(['0:2','1:1','2:0']).range(['LightPink','MediumAquamarine','LightSkyBlue']);
         let svg=d3.select('#'+id).append('svg').attr('width',width*1.1).attr('height',width*1.1).call(tip);
         svg.append('rect')
         .attr('width',width)
@@ -480,10 +480,7 @@
             let text=d.Team_A+' '+d.Wins+' vs '+d.Loses+' '+d.Team_B+'<br/>';
             
             while(parseInt(d['A_G'+id.toString()])||parseInt(d['B_G'+id.toString()])){
-                let t='';//256 144 io=wisp Nature's Prophet=furion Clockwerk=rattletrap Wraith King=skeleton_king 256=16*16 144=16*9
-                //Queen of Pain=queenofpain Vengeful Spirit=vengefulspirit Zeus=zuus Centaur Warrunner=centaur
-                //Underlord=abyssal_underlord Timbersaw=shredder Magnus=magnataur Shadow Fiend=nevermore
-                //
+                let t='';
 
                 for(let i=1;i<=10;i++){
                     hero=d['G'+id.toString()+'H'+i.toString()].toString();
@@ -511,7 +508,7 @@
                     };
                     hero=hero.replace(/ /g,'_');
                     hero=hero.toLowerCase();
-                    t=t+"<img src='http://cdn.dota2.com/apps/dota2/images/heroes/"+hero+"_full.png' width=32 height=18>";
+                    t=t+"<img src='http://cdn.dota2.com/apps/dota2/images/heroes/"+hero+"_full.png' width=48 height=27>";
                     if(i==5)
                     t=t+' '+d['A_G'+id.toString()]+' vs '+d['B_G'+id.toString()]+' ';
                 }
