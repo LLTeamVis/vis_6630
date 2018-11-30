@@ -1,0 +1,422 @@
+{
+  "name": "dota2",
+  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLI9YT0baVvGP1FTekbgvT4vKYcHA-x70pe3PvHXRE_SzvIomdSg",
+  "children": [
+
+    {
+      "name": "Intelligence",
+      "children": [
+        {
+          "hero": "CRYSTAL MAIDEN",
+          "name": "Intelligence",
+          "introduction":"Born in a temperate realm, raised with her fiery older sister Lina, Rylai the Crystal Maiden soon found that her innate elemental affinity to ice created trouble for all those around her...",
+          "link": "http://www.dota2.com/hero/crystal_maiden/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/crystal_maiden_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "59", "pick_win": "0.5085", "ban": "40", "ban_win": "0.65", "combined": "99", "combined_win": "0.5657", "RVD": "0.4237", "GPM": "293", "XPM": "359", "KDA": "2.18"},
+          "point":{"DPS":6.0,"support":8.5,"Push":6.3,"gank":7.6,"tank":4.7,"group":6.9},
+          "size": 40000
+        },
+        {
+          "hero": "PUCK",
+          "name": "Intelligence",
+          "introduction":"While Puck seems at first glance a mischievous, childish character, this quality masks an alien personality. The juvenile form of a Faerie Dragon, a creature that lives for eons...",
+          "link": "http://www.dota2.com/hero/puck/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/puck_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "9", "pick_win": "0.2222", "ban": "6", "ban_win": "0.8333", "combined": "15", "combined_win": "0.4667", "RVD": "0.4444", "GPM": "459", "XPM": "496", "KDA": "1.87"},
+          "point":{"DPS":7.5,"support":4.7,"Push":5.7,"gank":8.8,"tank":3.8,"group":8.8},
+          "size": 20000
+        },
+        {
+          "hero": "STORM SPIRIT",
+          "name": "Intelligence",
+          "introduction":"Storm Spirit is literally a force of nature--the wild power of wind and weather, bottled in human form. And a boisterous, jovial, irrepressible form it is! ...",
+          "link": "http://www.dota2.com/hero/storm_spirit/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/storm_spirit_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "65", "pick_win": "0.4923", "ban": "64", "ban_win": "0.5156", "combined": "129", "combined_win": "0.5039", "RVD": "0.4462", "GPM": "547", "XPM": "621", "KDA": "3.91"},
+          "point":{"DPS":8.3,"support":4.0,"Push":6.2,"gank":9.0,"tank":4.1,"group":7.7},
+          "size": 20000
+        },
+        {
+          "hero": "WINDRANGER",
+          "name": "Intelligence",
+          "introduction":"The western forests guard their secrets well. One of these is Lyralei, master archer of the wood, and favored godchild of the wind. Known now as Windranger...",
+          "link": "http://www.dota2.com/hero/windrunner/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/windrunner_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "122", "pick_win": "0.4344", "ban": "68", "ban_win": "0.4265", "combined": "190", "combined_win": "0.4316", "RVD": "0.5164", "GPM": "365", "XPM": "414", "KDA": "3.06"},
+          "point":{"DPS":8.0,"support":7.8,"Push":8,"gank":7.8,"tank":5.9,"group":7.6},
+          "size": 20000
+        },
+        {
+          "hero": "ZEUS",
+          "name": "Intelligence",
+          "introduction":"Lord of Heaven, father of gods, Zeus treats all the Heroes as if they are his rambunctious, rebellious children. After being caught unnumbered times in the midst of trysts with countless mortal women...",
+          "link": "http://www.dota2.com/hero/zuus/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/zuus_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "37", "pick_win": "0.4595", "ban": "23", "ban_win": "0.4783", "combined": "60", "combined_win": "0.4667", "RVD": "0.3243", "GPM": "440", "XPM": "546", "KDA": "3.55"},
+          "point":{"DPS":7.9,"support":3.9,"Push":5.9,"gank":7.9,"tank":4.5,"group":6.3},
+          "size": 20000
+        },
+        {
+          "hero": "LINA",
+          "name": "Intelligence",
+          "introduction":"The sibling rivalries between Lina the Slayer, and her younger sister Rylai, the Crystal Maiden, were the stuff of legend in the temperate region where they spent their quarrelsome childhoods together...",
+          "link": "http://www.dota2.com/hero/lina/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/lina_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "87", "pick_win": "0.5517", "ban": "72", "ban_win": "0.5417", "combined": "159", "combined_win": "0.5472", "RVD": "0.5287", "GPM": "529", "XPM": "575", "KDA": "2.98"},
+          "point":{"DPS":8.0,"support":7.6,"Push":7.7,"gank":8.1,"tank":5.2,"group":7.2},
+          "size": 20000
+        },
+        {
+          "hero": "SHADOW SHAMAN",
+          "name": "Intelligence",
+          "introduction":"Born in the Bleeding Hills, Rhasta was just a starving youngling when picked up by a travelling con-man. For two pins of copper, the old con-man would tell your fortune...",
+          "link": "http://www.dota2.com/hero/shadow_shaman/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/shadow_shaman_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "19", "pick_win": "0.5263", "ban": "23", "ban_win": "0.5217", "combined": "42", "combined_win": "0.5238", "RVD": "0.7368", "GPM": "620", "XPM": "604", "KDA": "3.55"},
+          "point":{"DPS":6.7,"support":7.2,"Push":7.3,"gank":8.5,"tank":4.9,"group":7.6},
+          "size": 20000
+        },
+        {
+          "hero": "TINKER",
+          "name": "Intelligence",
+          "introduction":"Boush the Tinker's diminutive race is known for its intelligence, its cunning, and its prickly relationship with magic. As a matter of pride, they survive by their wits...",
+          "link": "http://www.dota2.com/hero/tinker/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/tinker_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "14", "pick_win": "0.3571", "ban": "28", "ban_win": "0.5357", "combined": "42", "combined_win": "0.4762", "RVD": "0.5", "GPM": "589", "XPM": "556", "KDA": "4.78"},
+          "point":{"DPS":7.4,"support":5.6,"Push":8.9,"gank":7.4,"tank":4.8,"group":6.4},
+          "size": 20000
+        },
+        {
+          "hero": "NATURE'S PROPHET",
+          "name": "Intelligence",
+          "introduction":"When Verodicia, Goddess of the Woods, had finished filling in the green places, having planted the coiled-up spirit in the seed, having lured the twining waters from deep within the rock...",
+          "link": "http://www.dota2.com/hero/furion/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/furion_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "49", "pick_win": "0.4286", "ban": "67", "ban_win": "0.5672", "combined": "116", "combined_win": "0.5086", "RVD": "0.5714", "GPM": "479", "XPM": "443", "KDA": "2.63"},
+          "point":{"DPS":7.7,"support":5.8,"Push":8,"gank":8.0,"tank":3.9,"group":4.8},
+          "size": 20000
+        },
+        {
+          "hero": "ENCHANTRESS",
+          "name": "Intelligence",
+          "introduction":"Aiushtha appears to be an innocent, carefree creature of the woods, and while this is certainly true, it is hardly the sum of her story. She well understands the suffering of the natural world",
+          "link": "http://www.dota2.com/hero/enchantress/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/enchantress_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "35", "pick_win": "0.5429", "ban": "150", "ban_win": "0.4733", "combined": "185", "combined_win": "0.4865", "RVD": "0.5429", "GPM": "408", "XPM": "481", "KDA": "3.44"},
+          "point":{"DPS":7.7,"support":8.3,"Push":6.5,"gank":7.8,"tank":5.0,"group":6.0},
+          "size": 20000
+        }
+
+      ]
+    },
+    {
+      "name": "Intelligence",
+      "children": [
+        {
+          "hero": "JAKIRO",
+          "name": "Intelligence",
+          "introduction":"Even among magical beasts, a twin-headed dragon is a freak. Equal parts ice and fire, cunning and rage, the creature known as Jakiro glides over charred and ice-bound battlefields, laying waste...",
+          "link": "http://www.dota2.com/hero/jakiro/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/jakiro_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"53","pick_win":"0.4528","ban":"14","ban_win":"0.2857","combined":"67","combined_win":"0.4179","RVD":"0.6038","GPM":"323","XPM":"433"},          "point":{"DPS":7.2,"support":7.5,"Push":7.3,"gank":7.8,"tank":4.9,"group":7.2},
+          "size": 40000
+        },
+        {
+          "hero": "CHEN",
+          "name": "Intelligence",
+          "introduction":"Born in the godless Hazhadal Barrens, Chen came of age among the outlaw tribes who eked out an existence in the shimmering heat of the desert. Using an ancient form of animal enthrallment...",
+          "link": "http://www.dota2.com/hero/chen/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/chen_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"53","pick_win":"0.6226","ban":"222","ban_win":"0.4054","combined":"275","combined_win":"0.4473","RVD":"0.434","GPM":"292","XPM":"332"},
+          "point":{"DPS":7.0,"support":7.3,"Push":8.7,"gank":7.5,"tank":5.7,"group":6.7},
+          "size": 40000
+        },
+        {
+          "hero": "SILENCER",
+          "name": "Intelligence",
+          "introduction":"Part of the seventh and final generation of a carefully designed pedigree, Nortrom was bred by the ancient order of the Aeol Drias to be the greatest magic user the world had ever seen...",
+          "link": "http://www.dota2.com/hero/silencer/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/silencer_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"73","pick_win":"0.5205","ban":"114","ban_win":"0.4825","combined":"187","combined_win":"0.4973","RVD":"0.5616","GPM":"277","XPM":"332"},
+          "point":{"DPS":8.4,"support":5.0,"Push":5.9,"gank":6.2,"tank":6.2,"group":7.7},
+          "size": 40000
+        },
+        {
+          "hero": "OGRE MAGI",
+          "name": "Intelligence",
+          "introduction":"The ordinary ogre is the creature for whom the phrase 'As dumb as a bag of rock hammers' was coined. In his natural state, an ogre is supremely incapable of doing or deciding anything...",
+          "link": "http://www.dota2.com/hero/ogre_magi/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/ogre_magi_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"23","pick_win":"0.4783","ban":"7","ban_win":"0.2857","combined":"30","combined_win":"0.4333","RVD":"0.5652","GPM":"289","XPM":"352"},
+          "point":{"DPS":6.6,"support":8.1,"Push":6.9,"gank":6.5,"tank":6.9,"group":6.0},
+          "size": 40000
+        },
+        {
+          "hero": "RUBICK",
+          "name": "Intelligence",
+          "introduction":"Any mage can cast a spell or two, and a few may even study long enough to become a wizard, but only the most talented are allowed to be recognized as a Magus. Yet as with any sorcerer's circle, a sense of community has never guaranteed competitive courtesy...",
+          "link": "http://www.dota2.com/hero/rubick/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/rubick_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"23","pick_win":"0.4783","ban":"7","ban_win":"0.2857","combined":"30","combined_win":"0.4333","RVD":"0.5652","GPM":"289","XPM":"352"},
+          "point":{"DPS":6.0,"support":8.4,"Push":6.7,"gank":7.9,"tank":5.9,"group":7.9},
+          "size": 40000
+        },
+        {
+          "hero": "DISRUPTOR",
+          "name": "Intelligence",
+          "introduction":"High on the wind-ravaged steppes of Druud, a gifted young stormcrafter called Disruptor was the first to unlock the secrets of the summer squalls. Constantly under assault from both seasonal storms ...",
+          "link": "http://www.dota2.com/hero/disruptor/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/disruptor_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"39","pick_win":"0.3333","ban":"18","ban_win":"0.6667","combined":"57","combined_win":"0.4386","RVD":"0.5897","GPM":"246","XPM":"317"},
+          "point":{"DPS":5.5,"support":7.1,"Push":6,"gank":6.2,"tank":5.6,"group":6.9},
+          "size": 40000
+        },
+        {
+          "hero": "KEEPER OF THE LIGHT",
+          "name": "Intelligence",
+          "introduction":"Upon a pale horse he rides, this spark of endless suns, this Keeper of the Light. Ezalor long ago escaped the Fundamental plane, separating from the other ancient forces to which he was bound within the great ...",
+          "link": "http://www.dota2.com/hero/keeper_of_the_light/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/keeper_of_the_light_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"6","pick_win":"0.8333","ban":"3","ban_win":"0.6667","combined":"9","combined_win":"0.7778","RVD":"0.5","GPM":"374","XPM":"367"},
+          "point":{"DPS":6.2,"support":7.3,"Push":8.6,"gank":6.0,"tank":4.1,"group":6.4},
+          "size": 40000
+        },
+        {
+          "hero": "SKYWRATH MAGE",
+          "name": "Intelligence",
+          "introduction":"A highly placed mage in the court of the Ghastly Eyrie, Dragonus lives a troubled existence. Sworn by birth to protect whoever sits within the Nest of Thorns, he hates the current Skywrath queen with all his soul...",
+          "link": "http://www.dota2.com/hero/Skywrath_Mage/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/skywrath_mage_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"77","pick_win":"0.4675","ban":"53","ban_win":"0.3585","combined":"130","combined_win":"0.4231","RVD":"0.5455","GPM":"283","XPM":"364"},
+          "point":{"DPS":7.4,"support":7.0,"Push":5.3,"gank":8.2,"tank":3.1,"group":5.8},
+          "size": 40000
+        },
+        {
+          "hero": "VISAGE",
+          "name": "Intelligence",
+          "introduction":"Perched atop the entrance to the Narrow Maze sit the looming shapes of sneering gargoyles, the paths into the hereafter forever in their gaze. Beasts and birds, men and monsters, all creatures that...",
+          "link": "http://www.dota2.com/hero/visage/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/visage_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"24","pick_win":"0.375","ban":"70","ban_win":"0.4","combined":"94","combined_win":"0.3936","RVD":"0.3333","GPM":"454","XPM":"489"},
+          "point":{"DPS":8.2,"support":7.2,"Push":5.5,"gank":7.1,"tank":7.5,"group":7.1},
+          "size": 40000
+        },
+        {
+          "hero": "TECHIES",
+          "name": "Intelligence",
+          "introduction":"In the storied saga of Dredger's Bight, no business has ever been more reviled than Techies Demolitions. Then again, Dredger's Bight no longer exists. Nor does Toterin. Or even Trapper Town...",
+          "link": "http://www.dota2.com/hero/techies/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/techies_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"1","pick_win":"0","ban":"2","ban_win":"1","combined":"3","combined_win":"0.6667","RVD":"1","GPM":"382","XPM":"371"},
+          "point":{"DPS":7.6,"support":6.3,"Push":7.8,"gank":6.0,"tank":5.0,"group":7.1},
+          "size": 40000
+        }
+
+      ]
+    },
+    {
+      "name": "Intelligence",
+      "children": [
+
+        {
+          "hero": "BANE",
+          "name": "Intelligence",
+          "introduction":"When the gods have nightmares, it is Bane Elemental who brings them. Also known as Atropos, Bane was born from the midnight terrors of the goddess Nyctasha. A force of terror too powerful...",
+          "link": "http://www.dota2.com/hero/bane/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/bane_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"76","pick_win":"0.4737","ban":"60","ban_win":"0.5","combined":"136","combined_win":"0.4853","RVD":"0.3816","GPM":"233","XPM":"336"},
+          "point":{"DPS":6.8,"support":4.5,"Push":6.4,"gank":6.9,"tank":3.8,"group":5.7},
+          "size": 40000
+        },
+        {
+          "hero": "LICH",
+          "name": "Intelligence",
+          "introduction":"In life, the frost-mage Ethreain (not yet a Lich) had used the threat of destructive ice to enslave entire kingdoms. His subjects, aided by a few desperate magicians, eventually grew bold enough to ambush him...",
+          "link": "http://www.dota2.com/hero/lich/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/lich_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"19","pick_win":"0.4737","ban":"8","ban_win":"0.375","combined":"27","combined_win":"0.4444","RVD":"0.4211","GPM":"262","XPM":"359"},
+          "point":{"DPS":7.2,"support":5.8,"Push":6.7,"gank":6.2,"tank":3.2,"group":7.7},
+          "size": 40000
+        },
+        {
+          "hero": "LION",
+          "name": "Intelligence",
+          "introduction":"Once a Grandmaster of the Demon Witch tradition of sorcery, Lion earned fame among his brethren for fighting on the side of light and righteousness. But adulation corrupts. With powers surpassed...",
+          "link": "http://www.dota2.com/hero/lion/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/lion_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"25","pick_win":"0.48","ban":"3","ban_win":"0.3333","combined":"28","combined_win":"0.4643","RVD":"0.56","GPM":"270","XPM":"347"},
+          "point":{"DPS":6.1,"support":7.2,"Push":6,"gank":7.2,"tank":3.6,"group":7.0},
+          "size": 40000
+        },
+        {
+          "hero": "WITCH DOCTOR",
+          "name": "Intelligence",
+          "introduction":"A wiry silhouette hitches forward--uneven of feature and limb, bizarre of gait, relentlessly criss-crossing the battlefield in search of that vital weak point where his talents can do most good,..",
+          "link": "http://www.dota2.com/hero/witch_doctor/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/witch_doctor_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"69","pick_win":"0.5507","ban":"23","ban_win":"0.4348","combined":"92","combined_win":"0.5217","RVD":"0.4638","GPM":"273","XPM":"322"},
+          "point":{"DPS":7.1,"support":7.0,"Push":6.8,"gank":7.1,"tank":5.0,"group":6.9},
+          "size": 40000
+        },
+        {
+          "hero": "ENIGMA",
+          "name": "Intelligence",
+          "introduction":"Nothing is known of Enigma's background. There are only stories and legends, most of them apocryphal, passed down through the ages. In truth, Enigma is a mystery for whom the only true biography is ...",
+          "link": "http://www.dota2.com/hero/enigma/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/enigma_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"27","pick_win":"0.5926","ban":"43","ban_win":"0.4884","combined":"70","combined_win":"0.5286","RVD":"0.4074","GPM":"466","XPM":"440"},
+          "point":{"DPS":5.7,"support":7.7,"Push":7.0,"gank":6.1,"tank":5.7,"group":8.9},
+          "size": 40000
+        },
+        {
+          "hero": "NECROPHOS",
+          "name": "Intelligence",
+          "introduction":"In a time of great plague, an obscure monk of dark inclinations, one Rotund'jere, found himself promoted to the rank of Cardinal by the swift death of all his superiors. While others of the order went out to succor the il...",
+          "link": "http://www.dota2.com/hero/necrolyte/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/necrolyte_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"57","pick_win":"0.4386","ban":"114","ban_win":"0.4737","combined":"171","combined_win":"0.462","RVD":"0.6316","GPM":"472","XPM":"498"},
+          "point":{"DPS":7.1,"support":7.1,"Push":7.1,"gank":6.2,"tank":7.2,"group":7.4},
+          "size": 40000
+        },
+        {
+          "hero": "WARLOCK",
+          "name": "Intelligence",
+          "introduction":"As Chief Curator and Head of Acquisitions for the Arcane Archives of the Ultimyr Academy, Demnok Lannik was tireless in his pursuit of lost, rare and forbidden tomes. No cursed temple was so foreboding...",
+          "link": "http://www.dota2.com/hero/warlock/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/warlock_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"93","pick_win":"0.5484","ban":"61","ban_win":"0.5574","combined":"154","combined_win":"0.5519","RVD":"0.5591","GPM":"257","XPM":"354"},
+          "point":{"DPS":6.8,"support":7.4,"Push":7.9,"gank":5.7,"tank":5.7,"group":7.9},
+          "size": 40000
+        },
+        {
+          "hero": "QUEEN OF PAIN",
+          "name": "Intelligence",
+          "introduction":"The Ecclesiast-King of Elze nursed a desire for pain--forbidden pain. In a less prominent political figure, such desires might be considered unwise, but in a monarch of his stature, to satisfy such thirsts...",
+          "link": "http://www.dota2.com/hero/queenofpain/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/queenofpain_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"18","pick_win":"0.3889","ban":"13","ban_win":"0.4615","combined":"31","combined_win":"0.4194","RVD":"0.6111","GPM":"495","XPM":"517"},
+          "point":{"DPS":7.9,"support":5.5,"Push":6.7,"gank":8.3,"tank":4.8,"group":7.2},
+          "size": 40000
+        },
+        {
+          "hero": "DEATH PROPHET",
+          "name": "Intelligence",
+          "introduction":"Krobelus was a Death Prophet--which is one way of saying she told fortunes for the wealthiest of those who wished to look beyond the veil. But after years of inquiring on behalf of others...",
+          "link": "http://www.dota2.com/hero/death_prophet/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/death_prophet_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"39","pick_win":"0.5385","ban":"52","ban_win":"0.4615","combined":"91","combined_win":"0.4945","RVD":"0.5641","GPM":"504","XPM":"551"},
+          "point":{"DPS":7.9,"support":5.7,"Push":5.4,"gank":8.3,"tank":4.8,"group":7.2},
+          "size": 40000
+        }
+
+      ]
+    },
+    {
+      "name": "Intelligence",
+      "children": [
+        {
+          "hero": "PUGNA",
+          "name": "Intelligence",
+          "introduction":"In the realm of Pugna's birth, near the vents of the Nether Reaches, there stood a lamasery devoted to the Arts of Oblivion, which drew its power from the nether energies. The Grandmaster of the temple...",
+          "link": "http://www.dota2.com/hero/pugna/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/pugna_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"51","pick_win":"0.5098","ban":"98","ban_win":"0.4694","combined":"149","combined_win":"0.4832","RVD":"0.451","GPM":"441","XPM":"479"},
+          "point":{"DPS":7.1,"support":6.8,"Push":7.6,"gank":6.4,"tank":4.4,"group":7.5},
+          "size": 40000
+        },
+        {
+          "hero": "DAZZLE",
+          "name": "Intelligence",
+          "introduction":"Each young acolyte to the Dezun order must complete a series of rites before becoming a shadow priest. The final rite, the rite of shades, is a harrowing spiritual journey through the Nothl Realm...",
+          "link": "http://www.dota2.com/hero/dazzle/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/dazzle_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"6","pick_win":"0.1667","ban":"0","ban_win":"0","combined":"6","combined_win":"0.1667","RVD":"0.3333","GPM":"229","XPM":"269"},
+          "point":{"DPS":5.7,"support":8.0,"Push":7.6,"gank":7.3,"tank":7.2,"group":7.8},
+          "size": 40000
+        },
+        {
+          "hero": "LESHRAC",
+          "name": "Intelligence",
+          "introduction":"Leshrac, Tormented Soul, is an entity torn from the heart of nature, a liminal being that exists half in one plane of existence, half in another. His penetrating intelligence is such that he can never ignore for...",
+          "link": "http://www.dota2.com/hero/leshrac/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/leshrac_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"68","pick_win":"0.4412","ban":"26","ban_win":"0.6154","combined":"94","combined_win":"0.4894","RVD":"0.5294","GPM":"449","XPM":"475"},          "point":{"DPS":7.8,"support":7.1,"Push":8,"gank":7.8,"tank":6.2,"group":7.9},
+          "size": 40000
+        },
+        {
+          "hero": "DARK SEER",
+          "name": "Intelligence",
+          "introduction":"Fast when he needs to be, and a cunning strategist, Ish'Kafel the Dark Seer requires no edged weapons to vanquish his enemies, relying instead on the strength of his powerful mind. His talent lies in his ability...",
+          "link": "http://www.dota2.com/hero/dark_seer/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/dark_seer_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"12","pick_win":"0.5","ban":"6","ban_win":"0.5","combined":"18","combined_win":"0.5","RVD":"0.4167","GPM":"439","XPM":"466"},
+          "point":{"DPS":7.5,"support":7.7,"Push":8.6,"gank":6.9,"tank":6.7,"group":7.9},
+          "size": 40000
+        },
+        {
+          "hero": "BATRIDER",
+          "name": "Intelligence",
+          "introduction":"There is no such thing as harmony among the creatures of the Yama Raskav Jungle. By bite, or claw, or pincer, or hoof, even the slightest sign of weakness means a swift death. They say the Rider was just ...",
+          "link": "http://www.dota2.com/hero/batrider/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/batrider_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"29","pick_win":"0.5517","ban":"23","ban_win":"0.4348","combined":"52","combined_win":"0.5","RVD":"0.4483","GPM":"356","XPM":"423"},
+          "point":{"DPS":7.3,"support":7.5,"Push":7.4,"gank":8.2,"tank":7.3,"group":7.8},
+          "size": 40000
+        },
+        {
+          "hero": "ANCIENT APPARITION",
+          "name": "Intelligence",
+          "introduction":"Kaldr, the Ancient Apparition, is an image projected from outside time. He springs from the cold, infinite void that both predates the universe and awaits its end. Kaldr is, Kaldr was, Kaldr shall be...",
+          "link": "http://www.dota2.com/hero/ancient_apparition/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/ancient_apparition_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"4","pick_win":"0.5","ban":"2","ban_win":"0","combined":"6","combined_win":"0.3333","RVD":"0","GPM":"313","XPM":"375"},
+          "point":{"DPS":6.5,"support":6.6,"Push":6.2,"gank":6.6,"tank":5.8,"group":7.9},
+          "size": 40000
+        },
+        {
+          "hero": "INVOKER",
+          "name": "Intelligence",
+          "introduction":"In its earliest, and some would say most potent form, magic was primarily the art of memory. It required no technology, no wands or appurtenances other than the mind of the magician. All the trappings...",
+          "link": "http://www.dota2.com/hero/invoker/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/invoker_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"34","pick_win":"0.6176","ban":"38","ban_win":"0.3421","combined":"72","combined_win":"0.4722","RVD":"0.6176","GPM":"490","XPM":"546"},
+          "point":{"DPS":8.3,"support":6.7,"Push":7.6,"gank":8.1,"tank":6.7,"group":8.0},
+          "size": 40000
+        },
+        {
+          "hero": "OUTWORLD DEVOURER",
+          "name": "Intelligence",
+          "introduction":"One of a lordly and magisterial race, Harbinger prowls the edge of the Void, sole surviving sentry of an outpost on the world at the rim of the abyss. From this jagged crystalline Outworld, forever on guard...",
+          "link": "http://www.dota2.com/hero/obsidian_destroyer/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/obsidian_destroyer_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"7","pick_win":"0.1429","ban":"13","ban_win":"0.3846","combined":"20","combined_win":"0.3","RVD":"0.8571","GPM":"436","XPM":"472"},
+          "point":{"DPS":8.5,"support":6.3,"Push":6.2,"gank":5.5,"tank":4.5,"group":7.0},
+          "size": 40000
+        },
+        {
+          "hero": "SHADOW DEMON",
+          "name": "Intelligence",
+          "introduction":"Among the sovereign Demons with explicit access to this world, Doom scarcely bothers with the affairs of Noninfernals and Lesser Spectral Consorts, while Shadow Fiend passes through almost exclusively on collecting...",
+          "link": "http://www.dota2.com/hero/shadow_demon/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/shadow_demon_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"23","pick_win":"0.3913","ban":"6","ban_win":"0.3333","combined":"29","combined_win":"0.3793","RVD":"0.3043","GPM":"265","XPM":"367"},
+          "point":{"DPS":6.9,"support":7.8,"Push":7.5,"gank":7.4,"tank":5.1,"group":6.9},
+          "size": 40000
+        },
+        {
+          "hero": "WINTER WYVERN",
+          "name": "Intelligence",
+          "introduction":"Like many great poets, Auroth just wants time to write, but the Winter Wyvern's life is full of interruptions. The epics of the Eldwurms have a long and colorful history, but some fear that the remaining dragon....",
+          "link": "http://www.dota2.com/hero/winter_wyvern/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/winter_wyvern_full.png?v=4840142?v=4840142",
+          "attr":{"picks":"70","pick_win":"0.5429","ban":"42","ban_win":"0.5","combined":"112","combined_win":"0.5268","RVD":"0.5","GPM":"366","XPM":"409"},
+          "point":{"DPS":6.8,"support":7.3,"Push":6.2,"gank":6.6,"tank":6.6,"group":7.4},
+          "size": 40000
+        }
+
+      ]
+    }
+
+
+  ]
+}

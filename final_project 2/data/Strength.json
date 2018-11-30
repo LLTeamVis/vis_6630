@@ -1,0 +1,391 @@
+{
+  "name": "dota2",
+  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLI9YT0baVvGP1FTekbgvT4vKYcHA-x70pe3PvHXRE_SzvIomdSg",
+  "children": [
+
+    {
+      "name": "Strength",
+      "children": [
+        {
+          "hero": "EARTHSHAKER",
+          "introduction":"Like a golem or gargoyle, Earthshaker was one with the earth but now walks freely upon it. Unlike those other entities, he created himself through an act of will...",
+          "name": "Strength",
+          "link": "http://www.dota2.com/hero/earthshaker/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/earthshaker_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "53", "pick_win": "0.5849", "ban": "24", "ban_win": "0.4167", "combined": "77", "combined_win": "0.5325", "RVD": "0.6226", "GPM": "306", "XPM": "418", "KDA": "3.43"},
+          "point":{"DPS":7.0,"support":5.6,"Push":6.8,"gank":8.0,"tank":5.9,"group":8.0},
+          "size": 20000
+        },
+        {
+          "hero": "SVEN",
+          "name": "Strength",
+          "introduction":"Sven is the bastard son of a Vigil Knight, born of a Pallid Meranth, raised in the Shadeshore Ruins...",
+          "link": "http://www.dota2.com/hero/sven/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/sven_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "5", "pick_win": "0.4", "ban": "3", "ban_win": "0.333", "combined": "8", "combined_win": "0.375", "RVD": "0.6", "GPM": "435", "XPM": "501", "KDA": "2.46"},
+          "point":{"DPS":8.7,"support":4.3,"Push":8,"gank":7.4,"tank":6.2,"group":7.4},
+          "size": 20000
+        },
+        {
+          "hero": "TINY",
+          "name": "Strength",
+          "introduction":"Coming to life as a chunk of stone, Tiny's origins are a mystery on which he continually speculates...",
+          "link": "http://www.dota2.com/hero/tiny/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/tiny_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "81", "pick_win": "0.4074", "ban": "95", "ban_win": "0.4737", "combined": "176", "combined_win": "0.4432", "RVD": "0.358", "GPM": "452", "XPM": "506", "KDA": "3.68"},
+          "point":{"DPS":8.6,"support":4.6,"Push":8.5,"gank":7.1,"tank":7.6,"group":7.7},
+          "size": 20000
+        },
+        {
+          "hero": "KUNKKA",
+          "name": "Strength",
+          "introduction":"As The Admiral of the mighty Claddish Navy, Kunkka was charged with protecting the isles of his homeland when the demons of the Cataract made a concerted grab at the lands of men...",
+          "link": "http://www.dota2.com/hero/kunkka/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/kunkka_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "43", "pick_win": "0.5349", "ban": "51", "ban_win": "0.6667", "combined": "94", "combined_win": "0.6064", "RVD": "0.4186", "GPM": "466", "XPM": "522", "KDA": "4.76"},
+          "point":{"DPS":8.3,"support":4.3,"Push":7.9,"gank":7.1,"tank":6,"group":8.7},
+          "size": 20000
+        },
+        {
+          "hero": "BEASTMASTER",
+          "name": "Strength",
+          "introduction":"Karroch was born a child of the stocks. His mother died in childbirth; his father, a farrier for the Last King of Slom, was trampled to death when he was five....",
+          "link": "http://www.dota2.com/hero/beastmaster/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/beastmaster_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "76", "pick_win": "0.5263", "ban": "83", "ban_win": "0.494", "combined": "159", "combined_win": "0.5094", "RVD": "0.5263", "GPM": "412", "XPM": "492", "KDA": "2.8"},
+          "point":{"DPS":7.3,"support":3.9,"Push":6.1,"gank":7.7,"tank":7.4,"group":6.6},
+          "size": 20000
+        },
+        {
+          "hero": "DRAGON KNIGHT",
+          "name": "Strength",
+          "introduction":"After years on the trail of a legendary Eldwurm, the Knight Davion found himself facing a disappointing foe: the dreaded Slyrak had grown ancient and frail...",
+          "link": "http://www.dota2.com/hero/dragon_knight/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/dragon_knight_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "74", "pick_win": "0.5", "ban": "67", "ban_win": "0.4478", "combined": "141", "combined_win": "0.4752", "RVD": "0.5", "GPM": "483", "XPM": "522", "KDA": "3.58"},
+          "point":{"DPS":8.5,"support":4.7,"Push":8.3,"gank":7.6,"tank":7.6,"group":7.9},
+          "size": 20000
+        },
+        {
+          "hero": "CLOCKWERK",
+          "name": "Strength",
+          "introduction":"Rattletrap descends from the same far-flung kindred as Sniper and Tinker, and like many of the Keen Folk, has offset his diminutive stature through the application of gadgetry and wit...",
+          "link": "http://www.dota2.com/hero/rattletrap/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/rattletrap_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "70", "pick_win": "0.5429", "ban": "80", "ban_win": "0.45", "combined": "150", "combined_win": "0.4933", "RVD": "0.5429", "GPM": "289", "XPM": "352", "KDA": "2.9"},
+          "point":{"DPS":6.2,"support":5.3,"Push":6.8,"gank":6.2,"tank":8.3,"group":5.3},
+          "size": 20000
+        },
+        {
+          "hero": "OMNIKNIGHT",
+          "name": "Strength",
+          "introduction":"Purist Thunderwrath was a hard-fighting, road-worn, deeply committed knight, sworn to the order in which he had grown up as squire to elder knights of great reputation...",
+          "link": "http://www.dota2.com/hero/omniknight/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/omniknight_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "15", "pick_win": "0.3333", "ban": "31", "ban_win": "0.4194", "combined": "46", "combined_win": "0.3913", "RVD": "0.4", "GPM": "394", "XPM": "394", "KDA": "2.62"},
+          "point":{"DPS":6.2,"support":7.8,"Push":5.6,"gank":5.4,"tank":7.9,"group":6.6},
+          "size": 20000
+        },
+        {
+          "hero": "HUSKAR",
+          "name": "Strength",
+          "introduction":"Emerging from the throes of the sacred Nothl Realm, Huskar opened his eyes to see the prodigal shadow priest Dazzle working a deep incantation over him...",
+          "link": "http://www.dota2.com/hero/huskar/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/huskar_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "28", "pick_win": "0.4643", "ban": "90", "ban_win": "0.4556", "combined": "118", "combined_win": "0.4576", "RVD": "0.5", "GPM": "523", "XPM": "521", "KDA": "2.41"},
+          "point":{"DPS":8.3,"support":3.9,"Push":7.9,"gank":7.1,"tank":5.3,"group":5.9},
+          "size": 20000
+        },
+        {
+          "hero": "ALCHEMIST",
+          "name": "Strength",
+          "introduction":"The sacred science of Chymistry was a Darkbrew family tradition, but no Darkbrew had ever shown the kind of creativity, ambition, and recklessness of young Razzil...",
+          "link": "http://www.dota2.com/hero/alchemist/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/alchemist_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "28", "pick_win": "0.4643", "ban": "34", "ban_win": "0.5882", "combined": "62", "combined_win": "0.5323", "RVD": "0.5714", "GPM": "828", "XPM": "570", "KDA": "3.27"},
+          "point":{"DPS":8.1,"support":5.8,"Push":7,"gank":6.8,"tank":7.8,"group":6.6},
+          "size": 20000
+        }
+        ]
+    },
+    {
+      "name": "Strength",
+      "children": [
+        {
+          "hero": "BREWMASTER",
+          "introduction":"Deep in the Wailing Mountains, in a valley beneath the Ruined City, the ancient Order of the Oyo has for centuries practiced its rites of holy reverie...",
+          "name": "Strength",
+          "link": "http://www.dota2.com/hero/brewmaster/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/brewmaster_full.png?v=4833457?v=4833457",
+          "attr":{"picks": "53", "pick_win": "0.5849", "ban": "24", "ban_win": "0.4167", "combined": "77", "combined_win": "0.5325", "RVD": "0.6226", "GPM": "306", "XPM": "418", "KDA": "3.43"},
+          "point":{"DPS":7.6,"support":3.8,"Push":6.9,"gank":7.5,"tank":8.0,"group":7.7},
+          "size": 20000
+        },
+        {
+          "hero": "TREANT PROTECTOR",
+          "introduction":"Far to the west, in the mountains beyond the Vale of Augury, lie the remains of an ancient power, a fount of eldritch energy nestled deep in the high woods. It is said that the things that grow here, grow strangely...",
+          "name": "Strength",
+          "link": "http://www.dota2.com/hero/treant/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/treant_full.png?v=4833457?v=4833457",
+          "attr":{"picks":"20","pick_win":"0.35","ban":"11","ban_win":"0.6364","combined":"31","combined_win":"0.4516","RVD":"0.65","GPM":"245","XPM":"330"},
+          "point":{"DPS":6.3,"support":6.5,"Push":6.7,"gank":5.3,"tank":7.3,"group":6.5},
+          "size": 20000
+        },
+        {
+          "hero": "IO",
+          "name": "Strength",
+          "introduction":"Io is everywhere, and in all things. Denounced by enemies as the great unmaker, worshiped by scholars as the twinkling of a divine eye, this strange Wisp of life-force occupies all planes at once...",
+          "link": "http://www.dota2.com/hero/wisp/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/wisp_full.png?v=4833457?v=4833457",
+          "attr":{"picks":"49","pick_win":"0.449","ban":"363","ban_win":"0.4876","combined":"412","combined_win":"0.483","RVD":"0.3878","GPM":"273","XPM":"475"},
+          "point":{"DPS":4.4,"support":8.9,"Push":3.7,"gank":3.9,"tank":5.6,"group":6.3},
+          "size": 20000
+        },
+        {
+          "hero": "CENTAUR WARRUNNER",
+          "name": "Strength",
+          "introduction":"It's said that a centaur's road is paved with the corpses of the fallen. For the one called Warrunner, it has been a long road indeed. To outsiders, the four-legged clans of Druud...",
+          "link": "http://www.dota2.com/hero/centaur/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/centaur_full.png?v=4833457?v=4833457",
+          "attr":{"picks":"13","pick_win":"0.3846","ban":"6","ban_win":"0.1667","combined":"19","combined_win":"0.3158","RVD":"0.5385","GPM":"390","XPM":"438"},
+          "point":{"DPS":6.8,"support":4.9,"Push":7.0,"gank":8.5,"tank":7.5,"group":6.5},
+          "size": 20000
+        },
+        {
+          "hero": "TIMBERSAW",
+          "name": "Strength",
+          "introduction":"Rizzrack could still hear the screams in his mind. He worked, frantically turning wrenches, twisting screws, building and carving and forging. Sleep eluded him; he only built...",
+          "link": "http://www.dota2.com/hero/shredder/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/shredder_full.png?v=4833457?v=4833457",
+          "attr":{"picks":"7","pick_win":"0.5714","ban":"8","ban_win":"0.625","combined":"15","combined_win":"0.6","RVD":"0.7143","GPM":"572","XPM":"660"},
+          "point":{"DPS":7.1,"support":6.1,"Push":6.6,"gank":8.4,"tank":7.0,"group":7.9},
+          "size": 20000
+        },
+        {
+          "hero": "BRISTLEBACK",
+          "name": "Strength",
+          "introduction":"Never one to turn his back on a fight, Rigwarl was known for battling the biggest, meanest scrappers he could get his hands on. Christened Bristleback by the drunken crowds,...",
+          "link": "http://www.dota2.com/hero/bristleback/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/bristleback_full.png?v=4833457?v=4833457",
+          "attr":{"picks":"8","pick_win":"0.75","ban":"4","ban_win":"0.25","combined":"12","combined_win":"0.5833","RVD":"0.625","GPM":"266","XPM":"380"},
+          "point":{"DPS":7.0,"support":6.4,"Push":6.1,"gank":8.7,"tank":6.7,"group":7.1},
+          "size": 20000
+        },
+        {
+          "hero": "TUSK",
+          "name": "Strength",
+          "introduction":"It had been a brawl to remember. There stood Ymir, the Tusk, the Terror from the Barrier, the Snowball from Cobalt, the only fighter to have bested the Bristled Bruiser in a fair fight,",
+          "link": "http://www.dota2.com/hero/tusk/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/tusk_full.png?v=4833457?v=4833457",
+          "attr":{"picks":"47","pick_win":"0.617","ban":"14","ban_win":"0.6429","combined":"61","combined_win":"0.623","RVD":"0.6596","GPM":"328","XPM":"403"},
+          "point":{"DPS":7.2,"support":6.4,"Push":6.3,"gank":6.7,"tank":8.7,"group":7.2},
+          "size": 20000
+        },
+        {
+          "hero": "ELDER TITAN",
+          "name": "Strength",
+          "introduction":"Well may you ask, How did this world take its form? Why of all the worlds in creation, has this one its strange properties, its diverse and motley collection of creatures, cultures and lore?",
+          "link": "http://www.dota2.com/hero/elder_titan/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/elder_titan_full.png?v=4833457?v=4833457",
+          "attr":{"picks":"53","pick_win":"0.4528","ban":"44","ban_win":"0.5909","combined":"97","combined_win":"0.5155","RVD":"0.6226","GPM":"271","XPM":"372"},
+          "point":{"DPS":7.4,"support":6.9,"Push":6.9,"gank":7.0,"tank":6.7,"group":8.1},
+          "size": 20000
+        },
+        {
+          "hero": "LEGION COMMANDER",
+          "name": "Strength",
+          "introduction":"They came without warning. Within the city walls of Stonehall there came a rumble and a terrible sound, and from blackness unknown came a force of beasts numbering beyond count",
+          "link": "http://www.dota2.com/hero/legion_commander/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/legion_commander_full.png?v=4833457?v=4833457",
+          "attr":{"picks":"17","pick_win":"0.3529","ban":"12","ban_win":"0.1667","combined":"29","combined_win":"0.2759","RVD":"0.5882","GPM":"356","XPM":"418"},
+          "point":{"DPS":7.9,"support":6.0,"Push":6.9,"gank":7.2,"tank":7.2,"group":5.9},
+          "size": 20000
+        },
+        {
+          "hero": "EARTH SPIRIT",
+          "name": "Strength",
+          "introduction":"Deep amid the Upland crags and cliffs there runs a seam of sacred jade long foresworn by highland miners. From this rare material, the likeness of the great general Kaolin was...",
+          "link": "http://www.dota2.com/hero/earth_spirit/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/earth_spirit_full.png?v=4833457?v=4833457",
+          "attr":{"picks":"23","pick_win":"0.5217","ban":"4","ban_win":"1","combined":"27","combined_win":"0.5926","RVD":"0.5217","GPM":"284","XPM":"386"},
+          "point":{"DPS":7.0,"support":7.0,"Push":5.5,"gank":8.1,"tank":7.0,"group":8.1},
+          "size": 20000
+        }
+      ]
+    },
+    {
+      "name": "Strength",
+      "children": [
+        {
+          "hero": "AXE",
+          "introduction":"As a grunt in the Army of Red Mist, Mogul Khan set his sights on the rank of Red Mist General. In battle after battle he proved his worth through gory deed...",
+          "name": "Strength",
+          "link": "http://www.dota2.com/hero/axe/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/axe_full.png?v=4833457?v=4833457",
+          "attr":{"picks":"39","pick_win":"0.4615","ban":"46","ban_win":"0.6087","combined":"85","combined_win":"0.5412","RVD":"0.5641","GPM":"406","XPM":"453"},
+          "point":{"DPS":7.7,"support":4.7,"Push":7.8,"gank":7.3,"tank":8.0,"group":7.9},
+          "size": 20000
+        },
+        {
+          "hero": "PUDGE",
+          "introduction":"In the Fields of Endless Carnage, far to the south of Quoidge, a corpulent figure works tirelessly through the night--dismembering, disembowelling, piling up the limbs and ...",
+          "name": "Strength",
+          "link": "http://www.dota2.com/hero/pudge/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/pudge_full.png?v=4833457?v=4833457",
+          "attr":{"picks":"6","pick_win":"0.6667","ban":"1","ban_win":"0","combined":"7","combined_win":"0.5714","RVD":"0.5","GPM":"354","XPM":"463"},
+          "point":{"DPS":7.2,"support":5.7,"Push":7,"gank":8.8,"tank":7.2,"group":6.9},
+          "size": 20000
+        },
+        {
+          "hero": "SAND KING",
+          "name": "Strength",
+          "introduction":"The sands of the Scintillant Waste are alive and sentient--the whole vast desert speaks to itself, thinking thoughts only such a vastness can conceive...",
+          "link": "http://www.dota2.com/hero/sand_king/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/sand_king_full.png?v=4833457?v=4833457",
+          "attr":{"picks":"58","pick_win":"0.3966","ban":"28","ban_win":"0.4643","combined":"86","combined_win":"0.4186","RVD":"0.431","GPM":"303","XPM":"382"},
+          "point":{"DPS":7.9,"support":4.0,"Push":8,"gank":6.5,"tank":6.0,"group":8.4},
+          "size": 20000
+        },
+        {
+          "hero": "SLARDAR",
+          "name": "Strength",
+          "introduction":"Slardar is a Slithereen, one of the Deep Ones, guardian of a vast network of sunken cities and the ancient riches buried within them. In the lightless gulf of the deepest ocean abysses, the Slithereen Guard...",
+          "link": "http://www.dota2.com/hero/slardar/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/slardar_full.png?v=4833457?v=4833457",
+          "attr":{"picks":"10","pick_win":"0.5","ban":"0","ban_win":"0","combined":"10","combined_win":"0.5","RVD":"0.3","GPM":"284","XPM":"370"},
+          "point":{"DPS":8.2,"support":5.1,"Push":6.7,"gank":8.0,"tank":6.0,"group":6.4},
+          "size": 20000
+        },
+        {
+          "hero": "TIDEHUNTER",
+          "name": "Strength",
+          "introduction":"The Tidehunter known as Leviathan was once the champion of the Sunken Isles, but his motives are as mysterious as those of his people. We all know the importance of the Drylanders' shipping lanes...",
+          "link": "http://www.dota2.com/hero/tidehunter/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/tidehunter_full.png?v=4833457?v=4833457",
+          "attr":{"picks":"11","pick_win":"0.5455","ban":"9","ban_win":"0.2222","combined":"20","combined_win":"0.4","RVD":"0.5455","GPM":"407","XPM":"483"},
+          "point":{"DPS":7.1,"support":6.6,"Push":6.1,"gank":10,"tank":8.4,"group":7.9},
+          "size": 20000
+        },
+        {
+          "hero": "WRAITH KING",
+          "name": "Strength",
+          "introduction":"For untold years, King Ostarion built a kingdom from the remains of his enemies. It was an obsessive's errand, done to pass the long eternities of a monarchy that seemed fated never to end...",
+          "link": "http://www.dota2.com/hero/skeleton_king/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/skeleton_king_full.png?v=4833457?v=4833457",
+          "attr":{"picks":"67","pick_win":"0.5075","ban":"63","ban_win":"0.5397","combined":"130","combined_win":"0.5231","RVD":"0.4328","GPM":"436","XPM":"469"},
+          "point":{"DPS":8.4,"support":4.7,"Push":7.6,"gank":6.6,"tank":7.9,"group":7.6},
+          "size": 20000
+        },
+        {
+          "hero": "LIFESTEALER",
+          "name": "Strength",
+          "introduction":"In the dungeons of Devarque, a vengeful wizard lay in shackles, plotting his escape. He shared his cell with a gibbering creature known as N'aix, a thief cursed by the Vile Council with longevity,..",
+          "link": "http://www.dota2.com/hero/life_stealer/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/life_stealer_full.png?v=4833457?v=4833457",
+          "attr":{"picks":"29","pick_win":"0.3448","ban":"37","ban_win":"0.4054","combined":"66","combined_win":"0.3788","RVD":"0.5172","GPM":"499","XPM":"510"},
+          "point":{"DPS":8.5,"support":3.6,"Push":6.9,"gank":7.3,"tank":6.8,"group":6.9},
+          "size": 20000
+        },
+        {
+          "hero": "NIGHT STALKER",
+          "name": "Strength",
+          "introduction":"Of the Night Stalker, there is no history, only stories. There are ancient tales woven into the lore of every race and every culture, of an impossible time before sunlight and daytime,..",
+          "link": "http://www.dota2.com/hero/night_stalker/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/night_stalker_full.png?v=4833457?v=4833457",
+          "attr":{"picks":"52","pick_win":"0.3846","ban":"106","ban_win":"0.6038","combined":"158","combined_win":"0.5316","RVD":"0.3654","GPM":"329","XPM":"399"},
+          "point":{"DPS":7.3,"support":3.8,"Push":6.9,"gank":8.5,"tank":6.4,"group":6.4},
+          "size": 20000
+        },
+        {
+          "hero": "DOOM",
+          "name": "Strength",
+          "introduction":"He that burns and is not consumed, devours and is never sated, kills and is beyond all judgment--Lucifer brings doom to all who would stand against him. Bearing away souls ...",
+          "link": "http://www.dota2.com/hero/doom_bringer/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/doom_bringer_full.png?v=4833457?v=4833457",
+          "attr":{"picks":"44","pick_win":"0.4773","ban":"35","ban_win":"0.5143","combined":"79","combined_win":"0.4937","RVD":"0.5455","GPM":"413","XPM":"411"},
+          "point":{"DPS":7.7,"support":5.3,"Push":6.9,"gank":7.8,"tank":7.4,"group":6.8},
+          "size": 20000
+        },
+        {
+          "hero": "SPIRIT BREAKER",
+          "name": "Strength",
+          "introduction":"Barathrum the Spirit Breaker is a lordly and powerful being, a fierce and elemental intelligence which chose to plane-shift into the world...",
+          "link": "http://www.dota2.com/hero/spirit_breaker/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/spirit_breaker_full.png?v=4833457?v=4833457",
+          "attr":{"picks":"8","pick_win":"0.75","ban":"4","ban_win":"0.25","combined":"12","combined_win":"0.5833","RVD":"0.625","GPM":"266","XPM":"380"},
+          "point":{"DPS":7.2,"support":6.2,"Push":5.6,"gank":7.5,"tank":6.4,"group":6.1},
+          "size": 20000
+        }
+      ]
+    },
+    {
+      "name": "Strength",
+      "children": [
+
+        {
+          "hero": "LYCAN",
+          "name": "Strength",
+          "introduction":"Banehallow was noble-born to the house of Ambry, the greatest of the landed castes in the old kingdom of Slom. Before the Fall, as the King's wants grew strange, and his court grew crowded...",
+          "link": "http://www.dota2.com/hero/lycan/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/lycan_full.png?v=4833457?v=4833457",
+          "attr":{"picks":"57","pick_win":"0.6316","ban":"175","ban_win":"0.52","combined":"232","combined_win":"0.5474","RVD":"0.4386","GPM":"504","XPM":"500"},
+          "point":{"DPS":8.2,"support":3.4,"Push":7.1,"gank":7.5,"tank":6.6,"group":8.8},
+          "size": 20000
+        },
+        {
+          "hero": "CHAOS KNIGHT",
+          "name": "Strength",
+          "introduction":"The veteran of countless battles on a thousand worlds, Chaos Knight hails from a far upstream plane where the fundamental laws of the universe have found sentient expression...",
+          "link": "http://www.dota2.com/hero/chaos_knight/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/chaos_knight_full.png?v=4833457?v=4833457",
+          "attr":{"picks":"8","pick_win":"0.5","ban":"4","ban_win":"0.5","combined":"12","combined_win":"0.5","RVD":"0.625","GPM":"538","XPM":"551"},
+          "point":{"DPS":8.8,"support":4.9,"Push":7.4,"gank":8.8,"tank":7.4,"group":7.4},
+          "size": 20000
+        },
+        {
+          "hero": "UNDYING",
+          "name": "Strength",
+          "introduction":"Dimly he recalls armor and banners and grim-faced kin riding at his side. He remembers a battle: pain and fear as pale hands ripped him from his saddle. He remembers terror as they...",
+          "link": "http://www.dota2.com/hero/undying/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/undying_full.png?v=4833457?v=4833457",
+          "attr":{"picks":"73","pick_win":"0.4932","ban":"64","ban_win":"0.5469","combined":"137","combined_win":"0.5182","RVD":"0.5616","GPM":"244","XPM":"325"},
+          "point":{"DPS":7.5,"support":5.6,"Push":6,"gank":7.8,"tank":5.8,"group":8.1},
+          "size": 20000
+        },
+        {
+          "hero": "MAGNUS",
+          "name": "Strength",
+          "introduction":"The master-smiths of Mt. Joerlak agree on only a single point: that the horn of a magnoceros is more precious than any alloy. And of all such horns, the largest and sharpest...",
+          "link": "http://www.dota2.com/hero/magnataur/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/magnataur_full.png?v=4833457?v=4833457",
+          "attr":{"picks":"34","pick_win":"0.5588","ban":"37","ban_win":"0.4595","combined":"71","combined_win":"0.507","RVD":"0.7059","GPM":"385","XPM":"477"},
+          "point":{"DPS":7.3,"support":6.4,"Push":4.8,"gank":8.2,"tank":7.4,"group":8.9},
+          "size": 20000
+        },
+        {
+          "hero": "ABADDON",
+          "name": "Strength",
+          "introduction":"The Font of Avernus is the source of a family's strength, a crack in primal stones from which vapors of prophetic power have issued for generations. Each newborn of the cavernous...",
+          "link": "http://www.dota2.com/hero/abaddon/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/abaddon_full.png?v=4833457?v=4833457",
+          "attr":{"picks":"7","pick_win":"0.7143","ban":"4","ban_win":"0.75","combined":"11","combined_win":"0.7273","RVD":"0.4286","GPM":"372","XPM":"453"},
+          "point":{"DPS":7.1,"support":8.0,"Push":6.9,"gank":5.8,"tank":8.9,"group":7.4},
+          "size": 20000
+        },
+        {
+          "hero": "UNDERLORD",
+          "name": "Strength",
+          "introduction":"Deep below the surface of the world lay unknown wonders and horrors. Down and down again, well beneath the slithering magma fields and simmering roots of dormant volcanoes...",
+          "link": "http://www.dota2.com/hero/abyssal_underlord/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/abyssal_underlord_full.png?v=4833457?v=4833457",
+          "attr":{"picks":"25","pick_win":"0.28","ban":"22","ban_win":"0.5","combined":"47","combined_win":"0.383","RVD":"0.36","GPM":"398","XPM":"462"},
+          "point":{"DPS":7.0,"support":7.3,"Push":7.7,"gank":6.3,"tank":7.8,"group":7.5},
+          "size": 20000
+        }
+      ]
+    }
+
+
+
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "name": "dota2",
+  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLI9YT0baVvGP1FTekbgvT4vKYcHA-x70pe3PvHXRE_SzvIomdSg",
+  "children": [
+
+    {
+      "name": "Agility",
+      "children": [
+        {
+          "hero": "ANTI-MAGE",
+          "name": "Agility",
+          "introduction":"The monks of Turstarkuri watched the rugged valleys below their mountain monastery as wave after wave of invaders swept through the lower kingdoms...",
+          "link": "http://www.dota2.com/hero/antimage/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/antimage_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "8", "pick_win": "0.25", "ban": "5", "ban_win": "0.6", "combined": "13", "combined_win": "0.3846", "RVD": "0.5", "GPM": "518", "XPM": "561", "KDA": "1.41"},
+          "point":{"DPS":8.5,"support":4.7,"Push":7.9,"gank":6.3,"tank":6.1,"group":6.9},
+          "size": 40000
+        },
+        {
+          "hero": "DROW RANGER",
+          "name": "Agility",
+          "introduction":"Drow Ranger's given name is Traxex--a name well suited to the short, trollish, rather repulsive Drow people. But Traxex herself is not a Drow...",
+          "link": "http://www.dota2.com/hero/drow_ranger/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/drow_ranger_full.png?v=4794286?v=4794286",
+          "attr":{"picks":"40","pick_win":"0.575","ban":"36","ban_win":"0.5278","combined":"76","combined_win":"0.5526","RVD":"0.55","GPM":"396","XPM":"459"},
+          "point":{"DPS":8.6,"support":6.0,"Push":6.8,"gank":6.5,"tank":4.9,"group":6.0},
+          "size": 20000
+        },
+        {
+          "hero": "JUGGERNAUT",
+          "name": "Agility",
+          "introduction":"No one has ever seen the face hidden beneath the mask of Yurnero the Juggernaut. It is only speculation that he even has one. For defying a corrupt lord...",
+          "link": "http://www.dota2.com/hero/juggernaut/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/juggernaut_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "8", "pick_win": "0.625", "ban": "11", "ban_win": "0.5455", "combined": "19", "combined_win": "0.5789", "RVD": "0.5", "GPM": "712", "XPM": "682", "KDA": "7.91"},
+          "point":{"DPS":8.3,"support":6.1,"Push":7.1,"gank":8.1,"tank":5.9,"group":6.6},
+          "size": 20000
+        },
+        {
+          "hero": "MIRANA",
+          "name": "Agility",
+          "introduction":"Born to a royal family, a blood princess next in line for the Solar Throne, Mirana willingly surrendered any claim to mundane land or titles when she dedicated herself completely to the service of Selemene...",
+          "link": "http://www.dota2.com/hero/mirana/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/mirana_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "135", "pick_win": "0.6", "ban": "130", "ban_win": "0.5846", "combined": "265", "combined_win": "0.5925", "RVD": "0.4667", "GPM": "520", "XPM": "548", "KDA": "6.24"},
+          "point":{"DPS":7.3,"support":5.6,"Push":5.8,"gank":8.1,"tank":3.8,"group":5.6},
+          "size": 20000
+        },
+        {
+          "hero": "MORPHLING",
+          "name": "Agility",
+          "introduction":"For dark eons the comet circled. Held in thrall to a distant sun, bound by gravity's inexorable pull, the massive ball of ice careened through the blackness between worlds...",
+          "link": "http://www.dota2.com/hero/morphling/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/morphling_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "47", "pick_win": "0.4681", "ban": "64", "ban_win": "0.5469", "combined": "111", "combined_win": "0.5135", "RVD": "0.4043", "GPM": "586", "XPM": "582", "KDA": "4.34"},
+          "point":{"DPS":8.6,"support":4.5,"Push":6.4,"gank":6.5,"tank":7.7,"group":7.7},
+          "size": 20000
+        },
+        {
+          "hero": "PHANTOM LANCER",
+          "name": "Agility",
+          "introduction":"The remote village of Pole had no knowledge of the wars raging in the heart of the kingdom. For them, the quiet of spear fishing, and a family meal were all that a full life required...",
+          "link": "http://www.dota2.com/hero/phantom_lancer/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/phantom_lancer_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "99", "pick_win": "0.596", "ban": "185", "ban_win": "0.5243", "combined": "284", "combined_win": "0.5493", "RVD": "0.5859", "GPM": "597", "XPM": "594", "KDA": "4.42"},
+          "point":{"DPS":8.7,"support":4.1,"Push":7.2,"gank":5.8,"tank":6.0,"group":8.3},
+          "size": 20000
+        },
+        {
+          "hero": "VENGEFUL SPIRIT",
+          "name": "Agility",
+          "introduction":"Even the most contented Skywrath is an ill-tempered creature, naturally inclined to seek revenge for the slightest insult. But Vengeful Spirit is the essence of vengeance...",
+          "link": "http://www.dota2.com/hero/vengefulspirit/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/vengefulspirit_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "93", "pick_win": "0.5376", "ban": "37", "ban_win": "0.4595", "combined": "130", "combined_win": "0.5154", "RVD": "0.5484", "GPM": "266", "XPM": "358", "KDA": "2.36"},
+          "point":{"DPS":6.9,"support":8.3,"Push":5,"gank":7.9,"tank":4.8,"group":7.5},
+          "size": 20000
+        },
+        {
+          "hero": "RIKI",
+          "name": "Agility",
+          "introduction":"Riki was born middle child to the great dynasty of Tahlin. With an older brother groomed for the throne, and a younger brother coddled and kept, Riki...",
+          "link": "http://www.dota2.com/hero/riki/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/riki_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "3", "pick_win": "0.3333", "ban": "1", "ban_win": "0", "combined": "4", "combined_win": "0.25", "RVD": "0.3333", "GPM": "470", "XPM": "557", "KDA": "3"},
+          "point":{"DPS":7.9,"support":4.6,"Push":5.4,"gank":7.8,"tank":4.8,"group":7.1},
+          "size": 20000
+        },
+        {
+          "hero": "SNIPER",
+          "name": "Agility",
+          "introduction":"Kardel Sharpeye was born deep in the mountains of Knollen where, since time immemorial, Keen Folk have survived by hunting the strange...",
+          "link": "http://www.dota2.com/hero/sniper/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/sniper_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "1", "pick_win": "0", "ban": "0", "ban_win": "0", "combined": "1", "combined_win": "0", "RVD": "0", "GPM": "359", "XPM": "354", "KDA": "1.6"},
+          "point":{"DPS":8.6,"support":5.3,"Push":7.5,"gank":5.5,"tank":4.1,"group":6.9},
+          "size": 20000
+        },
+        {
+          "hero": "TEMPLAR ASSASSIN",
+          "name": "Agility",
+          "introduction":"Lanaya, the Templar Assassin, came to her calling by a path of curious inquiry. Possessed of a scientific bent, she spent her early years engaged in meticulous study...",
+          "link": "http://www.dota2.com/hero/templar_assassin/",
+          "img":  "http://cdn.dota2.com/apps/dota2/images/heroes/templar_assassin_full.png?v=4794286?v=4794286",
+          "attr":{"picks": "55", "pick_win": "0.6", "ban": "81", "ban_win": "0.5556", "combined": "136", "combined_win": "0.5735", "RVD": "0.5818", "GPM": "651", "XPM": "649", "KDA": "5.16"},
+          "point":{"DPS":8.2,"support":5.0,"Push":5.8,"gank":8.0,"tank":6.4,"group":7.1},
+          "size": 20000
+        }
+
+      ]
+    },
+    {
+      "name": "Agility",
+      "children": [
+        {
+          "hero": "LUNA",
+          "introduction":"How had she been reduced to this? She was once the Scourge of the Plains, a merciless leader of men and beasts, and able to sow terror wherever she dared. Now she was far from her homeland...",
+          "name": "Agility",
+          "link": "http://www.dota2.com/hero/luna/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/luna_full.png?v=4837968?v=4837968",
+          "attr":{"picks":"27","pick_win":"0.4074","ban":"35","ban_win":"0.4571","combined":"62","combined_win":"0.4355","RVD":"0.6296","GPM":"623","XPM":"561"},
+          "point":{"DPS":8.2,"support":4.7,"Push":6.9,"gank":6.4,"tank":5.0,"group":6.7},
+          "size": 20000
+        },
+        {
+          "hero": "BOUNTY HUNTER",
+          "introduction":"When the hunted tell tales of Gondar the Bounty Hunter, none are sure of which are true. In whispered tones they say he was abandoned as a kit, learning his skill in tracking as a matter of simple survival...",
+          "name": "Agility",
+          "link": "http://www.dota2.com/hero/bounty_hunter/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/bounty_hunter_full.png?v=4837968?v=4837968",
+          "attr":{"picks":"13","pick_win":"0.5385","ban":"21","ban_win":"0.4762","combined":"34","combined_win":"0.5","RVD":"0.3846","GPM":"305","XPM":"356"},
+          "point":{"DPS":7.9,"support":4.9,"Push":4.3,"gank":8.1,"tank":4.8,"group":7.0},
+          "size": 20000
+        },
+        {
+          "hero": "URSA",
+          "introduction":"Ulfsaar the Warrior is the fiercest member of an ursine tribe, protective of his land and his people. During the long winters, while the mothers sleep and nurse their cubs,...",
+          "name": "Agility",
+          "link": "http://www.dota2.com/hero/ursa/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/ursa_full.png?v=4837968?v=4837968",
+          "attr":{"picks":"52","pick_win":"0.4423","ban":"50","ban_win":"0.5","combined":"102","combined_win":"0.4706","RVD":"0.4231","GPM":"450","XPM":"498"},
+          "point":{"DPS":8.4,"support":4.6,"Push":5.7,"gank":6.7,"tank":7.0,"group":6.4},
+          "size": 20000
+        },
+        {
+          "hero": "GYROCOPTER",
+          "introduction":"After serving through a lifetime of wars, upheaval, riots, and revolutions, the brass figured Aurel had seen enough. But in addition to a few trinkets and his considerable pension...",
+          "name": "Agility",
+          "link": "http://www.dota2.com/hero/gyrocopter/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/gyrocopter_full.png?v=4837968?v=4837968",
+          "attr":{"picks":"52","pick_win":"0.4808","ban":"19","ban_win":"0.5263","combined":"71","combined_win":"0.493","RVD":"0.4423","GPM":"595","XPM":"555"},
+          "point":{"DPS":8.2,"support":4.5,"Push":5.9,"gank":7.1,"tank":4.4,"group":7.9},
+          "size": 20000
+        },
+        {
+          "hero": "LONE DRUID",
+          "introduction":"Long before the first words of the first histories there rose the druidic Bear Clan. Wise and just they were, and focused in their ways to seek an understanding of the natural order...",
+          "name": "Agility",
+          "link": "http://www.dota2.com/hero/lone_druid/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/lone_druid_full.png?v=4837968?v=4837968",
+          "attr":{"picks":"11","pick_win":"0.6364","ban":"27","ban_win":"0.6667","combined":"38","combined_win":"0.6579","RVD":"0.4545","GPM":"505","XPM":"464"},
+          "point":{"DPS":7.8,"support":4.9,"Push":8.1,"gank":5.1,"tank":8.1,"group":7.2},
+          "size": 20000
+        },
+        {
+          "hero": "NAGA SIREN",
+          "introduction":"Among the high-sworn of the Slithereen Guard there is a solemn vow oft repeated before battle: No Slithereen may fail. In truth, these words are equal parts oath and enforceable covenant...",
+          "name": "Agility",
+          "link": "http://www.dota2.com/hero/naga_siren/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/naga_siren_full.png?v=4837968?v=4837968",
+          "attr":{"picks":"70","pick_win":"0.4714","ban":"141","ban_win":"0.4823","combined":"211","combined_win":"0.4787","RVD":"0.3857","GPM":"284","XPM":"339"},
+          "point":{"DPS":8.4,"support":4.8,"Push":6.6,"gank":7.0,"tank":4.4,"group":7.9},
+          "size": 20000
+        },
+        {
+          "hero": "TROLL WARLORD",
+          "introduction":"It's an easy thing to offend a troll. A prickly and contentious race, trolls thrive on argument and strife, missing no excuse to raise their voices in dispute. Males grow to maturity in subterranean chambers...",
+          "name": "Agility",
+          "link": "http://www.dota2.com/hero/troll_warlord/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/troll_warlord_full.png?v=4837968?v=4837968",
+          "attr":{"picks":"20","pick_win":"0.3","ban":"13","ban_win":"0.6923","combined":"33","combined_win":"0.4545","RVD":"0.5","GPM":"548","XPM":"564"},
+          "point":{"DPS":8.7,"support":5.7,"Push":8.3,"gank":6.4,"tank":5.0,"group":7.7},
+          "size": 20000
+        },
+        {
+          "hero": "EMBER SPIRIT",
+          "introduction":"Lost within the Wailing Mountains, the Fortress of Flares lay abandoned, its training halls empty, its courtyard covered in leaves and dust. Upon a dais in its sealed temple rests a topaz cauldron filled with ancient ash...",
+          "name": "Agility",
+          "link": "http://www.dota2.com/hero/ember_spirit/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/ember_spirit_full.png?v=4837968?v=4837968",
+          "attr":{"picks":"72","pick_win":"0.5","ban":"85","ban_win":"0.5647","combined":"157","combined_win":"0.535","RVD":"0.5","GPM":"524","XPM":"573"},
+          "point":{"DPS":7.5,"support":4.4,"Push":5.1,"gank":8.0,"tank":6.5,"group":7.3},
+          "size": 20000
+        },
+        {
+          "hero": "MONKEY KING",
+          "introduction":"For 500 years the mountain pressed down upon him, only his head free from the crushing weight of the stonewrought prison the elder gods had summoned to halt his childish rebellion...",
+          "name": "Agility",
+          "link": "http://www.dota2.com/hero/monkey_king/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/monkey_king_full.png?v=4837968?v=4837968",
+          "attr":{"picks":"24","pick_win":"0.4167","ban":"26","ban_win":"0.5","combined":"50","combined_win":"0.46","RVD":"0.625","GPM":"487","XPM":"531"},
+          "point":{"DPS":7.6,"support":6.2,"Push":7.2,"gank":8.3,"tank":4.5,"group":7.8},
+          "size": 20000
+        }
+      ]
+    },
+    {
+      "name": "Agility",
+      "children": [
+        {
+          "hero": "BLOODSEEKER",
+          "introduction":"Strygwyr the Bloodseeker is a ritually sanctioned hunter, Hound of the Flayed Twins, sent down from the mist-shrouded peaks of Xhacatocatl in search of blood. The Flayed Ones require oceanic...",
+          "name": "Agility",
+          "link": "http://www.dota2.com/hero/bloodseeker/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/bloodseeker_full.png?v=4837968?v=4837968",
+          "attr":{"picks":"70","pick_win":"0.4714","ban":"157","ban_win":"0.5032","combined":"227","combined_win":"0.4934","RVD":"0.4571","GPM":"503","XPM":"517"},
+          "point":{"DPS":7.8,"support":4.2,"Push":6.3,"gank":7.7,"tank":5.7,"group":6.4},
+          "size": 20000
+        },
+        {
+          "hero": "SHADOW FIEND",
+          "introduction":"It is said that Nevermore the Shadow Fiend has the soul of a poet, and in fact he has thousands of them. Over the ages he has claimed the souls of poets, priests, emperors, beggars, slaves...",
+          "name": "Agility",
+          "link": "http://www.dota2.com/hero/nevermore/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/nevermore_full.png?v=4837968?v=4837968",
+          "attr":{"picks":"19","pick_win":"0.5263","ban":"23","ban_win":"0.5217","combined":"42","combined_win":"0.5238","RVD":"0.7368","GPM":"620","XPM":"604"},
+          "point":{"DPS":8.2,"support":3.6,"Push":7.3,"gank":7.9,"tank":3.7,"group":5.4},
+          "size": 20000
+        },
+        {
+          "hero": "RAZOR",
+          "introduction":"Among the emblematic powers that populate the Underscape, Razor the Lightning Revenant is one of the most feared. With his whip of lightning, he patrols the Narrow Maze, that ...",
+          "name": "Agility",
+          "link": "http://www.dota2.com/hero/razor/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/razor_full.png?v=4837968?v=4837968",
+          "attr":{"picks":"13","pick_win":"0.6154","ban":"9","ban_win":"0.1111","combined":"22","combined_win":"0.4091","RVD":"0.4615","GPM":"513","XPM":"545"},
+          "point":{"DPS":7.7,"support":6.9,"Push":5.8,"gank":6.9,"tank":6.2,"group":6.8},
+          "size": 20000
+        },
+        {
+          "hero": "VENOMANCER",
+          "introduction":"In the Acid Jungles of Jidi Isle, poison runs in the veins and bubbles in the guts of every creature that scuttles, climbs or swoops between fluorescent vines dripping with caustic sap...",
+          "name": "Agility",
+          "link": "http://www.dota2.com/hero/venomancer/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/venomancer_full.png?v=4837968?v=4837968",
+          "attr":{"picks":"32","pick_win":"0.5313","ban":"28","ban_win":"0.2857","combined":"60","combined_win":"0.4167","RVD":"0.5","GPM":"498","XPM":"471"},
+          "point":{"DPS":6.5,"support":6.9,"Push":7.5,"gank":7.3,"tank":6,"group":7.5},
+          "size": 20000
+        },
+        {
+          "hero": "FACELESS VOID",
+          "introduction":"Darkterror the Faceless Void is a visitor from Claszureme, a realm outside of time. It remains a mystery why this being from another dimension believes the struggle for the Nemesis Stones is...",
+          "name": "Agility",
+          "link": "http://www.dota2.com/hero/faceless_void/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/faceless_void_full.png?v=4837968?v=4837968",
+          "attr":{"picks":"38","pick_win":"0.6316","ban":"54","ban_win":"0.6296","combined":"92","combined_win":"0.6304","RVD":"0.5526","GPM":"533","XPM":"584"},
+          "point":{"DPS":8.7,"support":5.2,"Push":6.6,"gank":6.8,"tank":6.6,"group":7.7},
+          "size": 20000
+        },
+        {
+          "hero": "PHANTOM ASSASSIN",
+          "introduction":"Through a process of divination, children are selected for upbringing by the Sisters of the Veil, an order that considers assassination a sacred part of the natural order. The Veiled Sisters identify...",
+          "name": "Agility",
+          "link": "http://www.dota2.com/hero/phantom_assassin/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/phantom_assassin_full.png?v=4837968?v=4837968",
+          "attr":{"picks":"14","pick_win":"0.5","ban":"7","ban_win":"0.7143","combined":"21","combined_win":"0.5714","RVD":"0.5","GPM":"574","XPM":"583"},
+          "point":{"DPS":8.7,"support":4.8,"Push":5.8,"gank":7.8,"tank":5.4,"group":6.8},
+          "size": 20000
+        },
+        {
+          "hero": "VIPER",
+          "introduction":"The malevolent familiar of a sadistic wizard who captured and hoped to tame him, Viper was curiously glad to have been sprung from the sealed and unchanging subterranean Nether Reaches ...",
+          "name": "Agility",
+          "link": "http://www.dota2.com/hero/viper/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/viper_full.png?v=4837968?v=4837968",
+          "attr":{"picks":"7","pick_win":"0.2857","ban":"4","ban_win":"0.75","combined":"11","combined_win":"0.4545","RVD":"0.2857","GPM":"484","XPM":"496"},
+          "point":{"DPS":7.9,"support":6.0,"Push":6.4,"gank":7.7,"tank":6.9,"group":6.1},
+          "size": 20000
+        },
+        {
+          "hero": "CLINKZ",
+          "introduction":"At the base of the Bleeding Hills stretches a thousand-league wood, a place called The Hoven, where black pools gather the tarry blood of the uplands, and the king-mage Sutherex sits in benevolent rule...",
+          "name": "Agility",
+          "link": "http://www.dota2.com/hero/clinkz/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/clinkz_full.png?v=4837968?v=4837968",
+          "attr":{"picks":"58","pick_win":"0.4828","ban":"61","ban_win":"0.4754","combined":"119","combined_win":"0.479","RVD":"0.5345","GPM":"489","XPM":"534"},
+          "point":{"DPS":7.8,"support":4.5,"Push":7.1,"gank":6.9,"tank":5.3,"group":6.4},
+          "size": 20000
+        },
+        {
+          "hero": "BROODMOTHER",
+          "introduction":"For centuries, Black Arachnia the Broodmother lurked in the dark lava tubes beneath the smoldering caldera of Mount Pyrotheos, raising millions of spiderlings in safety before sending them to find prey...",
+          "name": "Agility",
+          "link": "http://www.dota2.com/hero/broodmother/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/broodmother_full.png?v=4837968?v=4837968",
+          "attr":{"picks":"29","pick_win":"0.5517","ban":"118","ban_win":"0.5593","combined":"147","combined_win":"0.5578","RVD":"0.4828","GPM":"598","XPM":"654"},
+          "point":{"DPS":6.8,"support":7.0,"Push":7.6,"gank":5.7,"tank":6.0,"group":6.4},
+          "size": 20000
+        },
+        {
+          "hero": "WEAVER",
+          "introduction":"The fabric of creation needs constant care, lest it grow tattered; for when it unravels, whole worlds come undone. It is the work of the Weavers to keep the fabric tight, to repair worn spots in the mesh of reality...",
+          "name": "Agility",
+          "link": "http://www.dota2.com/hero/weaver/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/weaver_full.png?v=4837968?v=4837968",
+          "attr":{"picks":"64","pick_win":"0.5781","ban":"118","ban_win":"0.5254","combined":"182","combined_win":"0.544","RVD":"0.5781","GPM":"507","XPM":"639"},
+          "point":{"DPS":7.4,"support":4.6,"Push":6.3,"gank":6.4,"tank":5.2,"group":6.2},
+          "size": 20000
+        }
+      ]
+    },
+    {
+      "name": "Agility",
+      "children": [
+        {
+          "hero": "SPECTRE",
+          "introduction":"Just as higher states of energy seek a lower level, the Spectre known as Mercurial is a being of intense and violent energy who finds herself irresistibly drawn to scenes of strife as they unfold...",
+          "name": "Agility",
+          "link": "http://www.dota2.com/hero/spectre/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/spectre_full.png?v=4837968?v=4837968",
+          "attr":{"picks":"56","pick_win":"0.4464","ban":"60","ban_win":"0.4667","combined":"116","combined_win":"0.4569","RVD":"0.4643","GPM":"534","XPM":"575"},
+          "point":{"DPS":8.4,"support":4.6,"Push":6.6,"gank":6.5,"tank":8.3,"group":8.8},
+          "size": 20000
+        },
+        {
+          "hero": "MEEPO",
+          "introduction":"If you ask me, life is all about who you know and what you can find. When you live up in the Riftshadow Ruins, just finding food can be tough. So you need to cut corners, you need to scrounge...",
+          "name": "Agility",
+          "link": "http://www.dota2.com/hero/meepo/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/meepo_full.png?v=4837968?v=4837968",
+          "attr":{"picks":"5","pick_win":"1","ban":"23","ban_win":"0.5652","combined":"28","combined_win":"0.6429","RVD":"1","GPM":"751","XPM":"881"},
+          "point":{"DPS":8.3,"support":6.0,"Push":7.8,"gank":7.5,"tank":6.3,"group":7.1},
+          "size": 20000
+        },
+        {
+          "hero": "NYX ASSASSIN",
+          "introduction":"Deep in the Archive of Ultimyr, shelved between scholarly treatises on dragon cladistics and books of untranslatable spells, there is an ancient tome of entomological curiosities...",
+          "name": "Agility",
+          "link": "http://www.dota2.com/hero/nyx_assassin/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/nyx_assassin_full.png?v=4837968?v=4837968",
+          "attr":{"picks":"31","pick_win":"0.6452","ban":"32","ban_win":"0.4375","combined":"63","combined_win":"0.5397","RVD":"0.2903","GPM":"298","XPM":"405"},
+          "point":{"DPS":7.0,"support":5.4,"Push":5.9,"gank":7.9,"tank":6.9,"group":6.6},
+          "size": 20000
+        },
+        {
+          "hero": "SLARK",
+          "introduction":"Little known to the inhabitants of the dry world, Dark Reef is a sunken prison where the worst of the sea-bred are sent for crimes against their fellows. It is a razor barbed warren full of murderous slithereen,...",
+          "name": "Agility",
+          "link": "http://www.dota2.com/hero/slark/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/slark_full.png?v=4837968?v=4837968",
+          "attr":{"picks":"23","pick_win":"0.3913","ban":"36","ban_win":"0.6389","combined":"59","combined_win":"0.5424","RVD":"0.3913","GPM":"503","XPM":"550"},
+          "point":{"DPS":8.0,"support":5.8,"Push":6.9,"gank":8.5,"tank":6.1,"group":6.4},
+          "size": 20000
+        },
+        {
+          "hero": "MEDUSA",
+          "introduction":"Beauty is power. This thought comforted Medusa--the youngest and loveliest of three beautiful Gorgon sisters, born to a sea goddess--because she alone of the sisters was mortal...",
+          "name": "Agility",
+          "link": "http://www.dota2.com/hero/medusa/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/medusa_full.png?v=4837968?v=4837968",
+          "attr":{"picks":"17","pick_win":"0.5294","ban":"15","ban_win":"0.6667","combined":"32","combined_win":"0.5938","RVD":"0.4706","GPM":"696","XPM":"693"},
+          "point":{"DPS":8.9,"support":3.9,"Push":7.7,"gank":4.0,"tank":8.5,"group":8.1},
+          "size": 20000
+        },
+        {
+          "hero": "TERRORBLADE",
+          "introduction":"Terrorblade is the demon marauder--an outlaw hellion whom even other demons fear. A cosmic iconoclast, he stole from the Demon Lords, ignored the codified rites that should have bound his behavior,..",
+          "name": "Agility",
+          "link": "http://www.dota2.com/hero/terrorblade/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/terrorblade_full.png?v=4837968?v=4837968",
+          "attr":{"picks":"19","pick_win":"0.4737","ban":"11","ban_win":"0.3636","combined":"30","combined_win":"0.4333","RVD":"0.5263","GPM":"671","XPM":"559"},
+          "point":{"DPS":8.6,"support":5.2,"Push":8.3,"gank":7.1,"tank":6.0,"group":7.7},
+          "size": 20000
+        },
+        {
+          "hero": "ARC WARDEN",
+          "introduction":"Before the beginning of all, there existed a presence: a primordial mind, infinite, awesome, and set to inscrutable purpose. As the universe thundered into being, this mind was fragmented and..",
+          "name": "Agility",
+          "link": "http://www.dota2.com/hero/arc_warden/",
+          "img":"http://cdn.dota2.com/apps/dota2/images/heroes/arc_warden_full.png?v=4837968?v=4837968",
+          "attr":{"picks":"13","pick_win":"0.4615","ban":"24","ban_win":"0.3333","combined":"37","combined_win":"0.3784","RVD":"0.5385","GPM":"585","XPM":"475"},
+          "point":{"DPS":7.4,"support":6.6,"Push":7.4,"gank":6.6,"tank":6.1,"group":7.1},
+          "size": 20000
+        }
+      ]
+    }
+  ]
+}

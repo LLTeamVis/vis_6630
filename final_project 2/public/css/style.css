@@ -1,0 +1,183 @@
+#header {
+    color:white;
+    text-align:center;
+    padding:5px;
+
+}
+.box{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    overflow:hidden;
+}
+
+
+.h5{
+    font-size: 100%;
+    color: #0c3863;
+}
+#first {
+    position: relative;
+    left: 15%;
+    top:105%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsouh9ot7ZEgnPKFlZ6hgWvP2UkuERgVH0NPMXhI4cXHGnLnIeqA");
+    font-size: 160%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+#match{
+    height: 40%;
+    position: relative;
+    left: 15%;
+    top:75%;
+    font-size: 160%;
+    color:#A4CD39;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-CAFbWcz94QAF7okEjH156xif-f1IEOFWMhquagLhihh7caXBYQ");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#team {
+    position: relative;
+    left: 15%;
+    top:85%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd8aI5DpT-RbM_zzjHl1G7-GcmSlMTNKWzVLFml0O3qjR_cSOy8Q");
+    font-size: 160%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #ffae35;
+}
+#hero{
+    position: relative;
+    left: 15%;
+    top:95%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRXd6pZoq_bxSqxWwFYfhumsbOgq-4y-1qKUyObvn9bdoXLX56");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color:#ffae35;
+    font-size: 160%;
+}
+.video{
+    position:relative;
+    left:0px;
+    top:0px;
+}
+#league{
+    font-size: 120%;
+}
+#nav {
+    position:relative;;
+    background-color: bisque;
+    height:100%;
+    width: 21%;
+    float:left;
+    background-repeat: no-repeat;
+
+}
+
+.header {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRL8L-mggJ1qrRhqfZbzcdEKxOOMuOijZnMrSL5LwNdb9dDzOE");
+    font-size: 150%;
+    font-family:cursive;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    text-shadow: 0 0 20px #fdec84,
+    10px -10px 30px #ffae35,
+    20px -20px 40px #ec760c,
+    -20px -60px 50px #cd4607;
+    height: 140px;
+
+}
+#section{
+     background-image: url('section.jpeg');
+     width: 59%;
+     height:640px;
+     float:left;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+ }
+
+.right1{
+    background-image: url("https://riki.dotabuff.com/c/ad46a5fee99e663dfaf91386fc3d939fd4a0c70b/687474703a2f2f692e696d6775722e636f6d2f636d503856684d2e6a7067?1");
+    width: 79%;
+    height:640px;
+    float:left;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 150%;
+
+    color: #eede45;
+}
+
+#matchbc{
+    background-image: url("https://thekmart.files.wordpress.com/2018/08/ti8-main-event-bracket-day-3.png?w=833");
+    width: 78%;
+    height:640px;
+    float:left;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#info{
+    width: 78%;
+    height:635px;
+    float:left;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#teambc{
+    width: 58%;
+    height:680px;
+    float:left;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#testSize{
+    font-size: 100%;
+}
+
+#sub_content{
+    background-color: bisque;
+    width: 20%;
+    height:5%px;
+    float:left;
+}
+
+#heroattr{
+    stroke: none;
+    font-family: "Al Bayan";
+    font-size: 100%;
+
+}
+#heropefor{
+    stroke: none;
+    font-family:"Al Bayan";
+    font-size: 100%;
+
+}
+
+#graph{
+    background-color: bisque;
+    width: 20%;
+    height:640px;
+    float:left;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+
+    padding:5px;
+}
+#heroname{
+    font-family:Georgia;
+    fill:red;
+    font-size: 12px;
+}

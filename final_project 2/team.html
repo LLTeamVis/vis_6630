@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<script src="http://d3js.org/d3.v3.js"></script>
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+<link rel="stylesheet" href="https://rawgit.com/tpreusse/radar-chart-d3/master/src/radar-chart.css">
+<html lang="en">
+
+    
+    <style>
+        body {
+            padding: 20px;
+        }
+    </style>
+    
+    <style>
+        .radar-chart .area {
+            fill-opacity: 0.7;
+        }
+        .radar-chart.focus .area {
+            fill-opacity: 0.3;
+        }
+        .radar-chart.focus .area.focused {
+            fill-opacity: 0.9;
+        }
+        .area.max, .max .circle {
+            fill: #a9e9ff;
+            stroke: none;
+        }
+        .area.average, .average .circle {
+            fill: #e60925;
+            stroke: none;
+        }
+
+        .area.player, .player .circle {
+            fill: #e6d28e;
+            stroke: none;
+        }
+    </style>
+
+<body>
+<script src="http://d3js.org/d3.v3.js"></script>
+<script src="https://rawgit.com/tpreusse/radar-chart-d3/master/src/radar-chart.js"></script>
+
+    <table>
+        <tr>
+            <td colspan="5" id='name'>Name</td>
+            <td colspan="4">Infomation</td>
+            <td colspan="3">Team Select</td>
+        </tr>
+        <tr>
+            <td rowspan="6" colspan="5" id='pic'></td>
+            <td>Player 1:</td>
+            <td id='Player1'></td>
+            <td>Location:</td>
+            <td id='Location'></td>
+            <td id='vp'></td>
+            <td id='tl'></td>
+            <td id='lgd'></td>
+        </tr>
+        <tr>
+            <td>Player 2:</td>
+            <td id='Player2'></td>
+            <td>Region:</td>
+            <td id='Region'></td>
+            <td id='se'></td>
+            <td id='og'></td>
+            <td id='eg'></td>
+        </tr>
+        <tr>
+            <td>Player 3:</td>
+            <td id='Player3'></td>
+            <td>Manager:</td>
+            <td id='Manager'></td>
+            <td id='op'></td>
+            <td id='vgjs'></td>
+            <td id='mn'></td>
+        </tr>
+        <tr>
+            <td>Player 4:</td>
+            <td id='Player4'></td>
+            <td>Caption:</td>
+            <td id='Caption'></td>
+            <td id='ts'></td>
+            <td id='vg'></td>
+            <td id='ws'></td>
+        </tr>
+        <tr>
+            <td>Player 5:</td>
+            <td id='Player5'></td>
+            <td>Total Earnings:</td>
+            <td id='Total_Earnings'></td>
+            <td id='fn'></td>
+            <td id='nb'></td>
+            <td id='tnc'></td>
+        </tr>
+        <tr>
+            <td>Coach:</td>
+            <td id='Coach'></td>
+            <td>Pro Circuit Rank:</td>
+            <td id='Pro_Circuit_Rank'></td>
+            <td id='vgjt'></td>
+            <td id='ig'></td>
+            <td id='pg'></td>
+        </tr>
+        <tr>
+            <td colspan="2" id='team_radar_name'></td>
+            <td colspan="2" id='player1_radar_name'></td>
+            <td colspan="2" id='player2_radar_name'></td>
+            <td colspan="2" id='player3_radar_name'></td>
+            <td colspan="2" id='player4_radar_name'></td>
+            <td colspan="2" id='player5_radar_name'></td>
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="2" id='team_radar'></td>
+            <td rowspan="2" colspan="2" id='player1_radar'></td>
+            <td rowspan="2" colspan="2" id='player2_radar'></td>
+            <td rowspan="2" colspan="2" id='player3_radar'></td>
+            <td rowspan="2" colspan="2" id='player4_radar'></td>
+            <td rowspan="2" colspan="2" id='player5_radar'></td>
+        </tr>
+        <tr></tr>
+    </table>
+    
+    <script>
+    
+    d3.csv('data/Players.csv',function(error, data){
+        if (error) throw error;
+        let width=45;
+        function updateRadar(location,name){
+            console.log(name)
+        };
+
+
+            d3.csv('data/Teams.csv', function(error, data) {
+                if (error) throw error;
+                console.log(data);
+                data.map(da=>{
+                    let id=da.id;
+                    let name=da.Name;
+                    let name_=name.replace(/ /g,'_');
+
+                    d3.select('#'+id).append('svg').attr('width',width).attr('height',width)
+                        .append('image')
+                        .attr('href','data/figs/'+name_+'.png')
+                        .attr('width',width).attr('height',width)
+                        .datum(da)
+                        .on('click',d=>{
+                            updateTable(d.id)
+                        });
+                });
+        function updateTable(id){
+            let a=data.filter(function(d){return d.id==id;});
+            for(let i=1;i<=5;i++){
+                document.getElementById('Player'+i.toString()).innerHTML='';
+                document.getElementById('Player'+i.toString()).appendChild(document.createTextNode(a[0]['Player'+i.toString()].toString()));
+                document.getElementById('player'+i.toString()+'_radar_name').innerHTML='';
+                document.getElementById('player'+i.toString()+'_radar_name').appendChild(document.createTextNode(a[0]['Player'+i.toString()].toString()));
+                
+            }
+            document.getElementById('Coach').innerHTML='';
+            document.getElementById('Coach').appendChild(document.createTextNode(a[0]['Coach'].toString()));
+            document.getElementById('name').innerHTML='';
+            document.getElementById('name').appendChild(document.createTextNode(a[0]['Name'].toString()));
+            document.getElementById('team_radar_name').innerHTML='';
+            document.getElementById('team_radar_name').appendChild(document.createTextNode(a[0]['Name'].toString()));
+            document.getElementById('Coach').innerHTML='';
+            document.getElementById('Coach').appendChild(document.createTextNode(a[0]['Coach'].toString()));
+            document.getElementById('Location').innerHTML='';
+            document.getElementById('Location').appendChild(document.createTextNode(a[0]['Location'].toString()));
+            document.getElementById('Region').innerHTML='';
+            document.getElementById('Region').appendChild(document.createTextNode(a[0]['Region'].toString()));
+            document.getElementById('Manager').innerHTML='';
+            document.getElementById('Manager').appendChild(document.createTextNode(a[0]['Manager'].toString()));
+            document.getElementById('Caption').innerHTML='';
+            document.getElementById('Caption').appendChild(document.createTextNode(a[0]['Caption'].toString()));
+            document.getElementById('Total_Earnings').innerHTML='';
+            document.getElementById('Total_Earnings').appendChild(document.createTextNode(a[0]['Total_Earnings'].toString()));
+            document.getElementById('Pro_Circuit_Rank').innerHTML='';
+            document.getElementById('Pro_Circuit_Rank').appendChild(document.createTextNode(a[0]['Pro_Circuit_Rank'].toString()));
+            document.getElementById('pic').innerHTML='';
+            let img=document.createElement('img');
+            img.setAttribute('src','data/figs/'+a[0]['Name'].replace(/ /g,'_')+'.png');
+            img.setAttribute('width',width*4);
+            //img.setAttribute('height',width*6*0.8);
+            img.setAttribute('title',a[0]['Name']);
+            document.getElementById('pic').appendChild(img);
+            console.log(a[0]['Player1'],a[0]['Player2'],a[0]['Player3'],a[0]['Player4'],a[0]['Player5'])
+            draw(a[0]['Player1'],a[0]['Player2'],a[0]['Player3'],a[0]['Player4'],a[0]['Player5'])
+        }
+
+    });
+    });
+    </script>
+
+<script>
+    RadarChart.defaultConfig.color = function() {};
+    RadarChart.defaultConfig.radius = 3;
+    RadarChart.defaultConfig.w = 400;
+    RadarChart.defaultConfig.h = 400;
+</script>
+<script>
+    average1= {
+        className: 'average', // optional can be used for styling
+        axes: [
+            {axis: "kills", value: 7.4},
+            {axis: "Death", value: 4.42},
+            {axis: "Assists", value: 10.01},
+            {axis: "GPMx100", value: 5.24},
+            {axis: "XPMx100", value: 5.52}
+        ]
+    };
+
+    max1=  {
+        className: 'max',
+        axes: [
+
+            {axis: "kills", value: 10.06},
+            {axis: "Death", value: 6.13},
+            {axis: "Assists", value: 12.94},
+            {axis: "GPM", value: 5.77},
+            {axis: "XPM", value: 6.3}
+        ]
+    };
+    average2= {
+        className: 'average', // optional can be used for styling
+        axes: [
+            {axis: "kills", value: 7.91},
+            {axis: "Death", value: 4.54},
+            {axis: "Assists", value: 9.40},
+            {axis: "GPMx100", value: 5.5},
+            {axis: "XPMx100", value: 5.7}
+        ]
+    };
+
+    max2=  {
+        className: 'max',
+        axes: [
+
+            {axis: "kills", value: 12.44},
+            {axis: "Death", value: 6.44},
+            {axis: "Assists", value: 13.25},
+            {axis: "GPM", value: 6.08},
+            {axis: "XPM", value: 6.51}
+        ]
+    };
+    average3= {
+        className: 'average', // optional can be used for styling
+        axes: [
+            {axis: "kills", value: 5.71},
+            {axis: "Death", value: 4.94},
+            {axis: "Assists", value: 11.67},
+            {axis: "GPMx100", value: 4.49},
+            {axis: "XPMx100", value: 4.96}
+        ]
+    };
+
+    max3=  {
+        className: 'max',
+        axes: [
+
+            {axis: "kills", value: 7.53},
+            {axis: "Death", value: 7},
+            {axis: "Assists", value: 15.69},
+            {axis: "GPM", value: 5.2},
+            {axis: "XPM", value: 5.65}
+        ]
+    };
+    average4= {
+        className: 'average', // optional can be used for styling
+        axes: [
+            {axis: "kills", value: 3.83},
+            {axis: "Death", value: 6.2},
+            {axis: "Assists", value: 13.99},
+            {axis: "GPMx100", value: 3.06},
+            {axis: "XPMx100", value: 4.11}
+        ]
+    };
+
+    max4=  {
+        className: 'max',
+        axes: [
+
+            {axis: "kills", value: 5.81},
+            {axis: "Death", value: 9.19},
+            {axis: "Assists", value: 19.69},
+            {axis: "GPM", value: 3.48},
+            {axis: "XPM", value: 4.87}
+        ]
+    };
+    average5= {
+        className: 'average', // optional can be used for styling
+        axes: [
+            {axis: "kills", value: 2.55},
+            {axis: "Death", value: 7.74},
+            {axis: "Assists", value: 13.87},
+            {axis: "GPMx100", value: 2.76},
+            {axis: "XPMx100", value: 3.44}
+        ]
+    };
+
+    max5=  {
+        className: 'max',
+        axes: [
+
+            {axis: "kills", value: 4.19},
+            {axis: "Death", value: 9.5},
+            {axis: "Assists", value: 18.88},
+            {axis: "GPM", value: 3.28},
+            {axis: "XPM", value: 4.12}
+        ]
+    };
+
+    player={
+    Resolution:{className:'player',axes:[{axis:"kills",value:8.63},{axis:"Death",value:2.81},{axis:"Assists",value:10.56},{axis:"GMP",value:6.07},{axis:"XMP",value:6.01
+        }]},
+    Arteezy:{className:'player',axes:[{axis:"kills",value:10.06},{axis:"Death",value:3.81},{axis:"Assists",value:12.94},{axis:"GMP",value:5.41},{axis:"XMP",value:5.92
+        }]},
+    Sumail:{className:'player',axes:[{axis:"kills",value:10.06},{axis:"Death",value:4.38},{axis:"Assists",value:13.25},{axis:"GMP",value:5.85},{axis:"XMP",value:5.93
+        }]},
+    S4:{className:'player',axes:[{axis:"kills",value:7.38},{axis:"Death",value:4.31},{axis:"Assists",value:14.56},{axis:"GMP",value:4.75},{axis:"XMP",value:5.54
+        }]},
+    MindControl:{className:'player',axes:[{axis:"kills",value:6.88},{axis:"Death",value:4.19},{axis:"Assists",value:13.88},{axis:"GMP",value:4.79},{axis:"XMP",value:5.46
+        }]},
+    NoOne:{className:'player',axes:[{axis:"kills",value:9.06},{axis:"Death",value:3.31},{axis:"Assists",value:11.31},{axis:"GMP",value:5.83},{axis:"XMP",value:6.27
+        }]},
+    YaWar:{className:'player',axes:[{axis:"kills",value:8.81},{axis:"Death",value:3.81},{axis:"Assists",value:9.94},{axis:"GMP",value:5.62},{axis:"XMP",value:5.78
+        }]},
+    Miracle:{className:'player',axes:[{axis:"kills",value:12.44},{axis:"Death",value:5.13},{axis:"Assists",value:10.38},{axis:"GMP",value:6.08},{axis:"XMP",value:6.51
+        }]},
+    Ramzes666:{className:'player',axes:[{axis:"kills",value:9.5},{axis:"Death",value:3.88},{axis:"Assists",value:12.25},{axis:"GMP",value:5.75},{axis:"XMP",value:6.30
+        }]},
+    pasha:{className:'player',axes:[{axis:"kills",value:6.06},{axis:"Death",value:3.56},{axis:"Assists",value:12.13},{axis:"GMP",value:4.57},{axis:"XMP",value:4.99
+        }]},
+    Crit:{className:'player',axes:[{axis:"kills",value:4.06},{axis:"Death",value:5.5},{axis:"Assists",value:17.44},{axis:"GMP",value:3.17},{axis:"XMP",value:4.49
+        }]},
+    MATUMBAMAN:{className:'player',axes:[{axis:"kills",value:8.88},{axis:"Death",value:5.5},{axis:"Assists",value:11.88},{axis:"GMP",value:5.37},{axis:"XMP",value:5.74
+        }]},
+    Yapzor:{className:'player',axes:[{axis:"kills",value:5.12},{axis:"Death",value:3.88},{axis:"Assists",value:15.82},{axis:"GMP",value:3.10},{axis:"XMP",value:4.36
+        }]},
+    Sneyking:{className:'player',axes:[{axis:"kills",value:5.06},{axis:"Death",value:5.31},{axis:"Assists",value:15.69},{axis:"GMP",value:4.99},{axis:"XMP",value:5.23
+        }]},
+    Pajkatt:{className:'player',axes:[{axis:"kills",value:6.71},{axis:"Death",value:3.29},{axis:"Assists",value:9.71},{axis:"GMP",value:5.24},{axis:"XMP",value:5.71
+        }]},
+    Moogy:{className:'player',axes:[{axis:"kills",value:7.56},{axis:"Death",value:3.5},{axis:"Assists",value:12.06},{axis:"GMP",value:5.31},{axis:"XMP",value:5.89
+        }]},
+    Maybe:{className:'player',axes:[{axis:"kills",value:9},{axis:"Death",value:4.63},{axis:"Assists",value:9.31},{axis:"GMP",value:6.05},{axis:"XMP",value:6.19
+        }]},
+    Ace:{className:'player',axes:[{axis:"kills",value:9.41},{axis:"Death",value:4},{axis:"Assists",value:9.88},{axis:"GMP",value:4.99},{axis:"XMP",value:5.23
+        }]},
+    Chalice:{className:'player',axes:[{axis:"kills",value:6.81},{axis:"Death",value:5.25},{axis:"Assists",value:13.38},{axis:"GMP",value:4.48},{axis:"XMP",value:5.14
+        }]},
+    gh:{className:'player',axes:[{axis:"kills",value:3.88},{axis:"Death",value:7.31},{axis:"Assists",value:19.69},{axis:"GMP",value:3.04},{axis:"XMP",value:4.46
+        }]},
+    MSS:{className:'player',axes:[{axis:"kills",value:3.69},{axis:"Death",value:5.5},{axis:"Assists",value:14.19},{axis:"GMP",value:3.28},{axis:"XMP",value:4.33
+        }]},
+    KuroKy:{className:'player',axes:[{axis:"kills",value:3},{axis:"Death",value:7.38},{axis:"Assists",value:18.25},{axis:"GMP",value:3.19},{axis:"XMP",value:4.12
+        }]},
+    RodjER:{className:'player',axes:[{axis:"kills",value:4.25},{axis:"Death",value:5.31},{axis:"Assists",value:15.5},{axis:"GMP",value:2.96},{axis:"XMP",value:4.19
+        }]},
+    Sccc:{className:'player',axes:[{axis:"kills",value:9.28},{axis:"Death",value:4.28},{axis:"Assists",value:10.56},{axis:"GMP",value:5.68},{axis:"XMP",value:5.83
+        }]},
+    Ame:{className:'player',axes:[{axis:"kills",value:7.5},{axis:"Death",value:5.19},{axis:"Assists",value:9.56},{axis:"GMP",value:5.77},{axis:"XMP",value:5.92
+        }]},
+    Fly:{className:'player',axes:[{axis:"kills",value:3.38},{axis:"Death",value:7.31},{axis:"Assists",value:16.75},{axis:"GMP",value:3.28},{axis:"XMP",value:4.08
+        }]},
+    SVG:{className:'player',axes:[{axis:"kills",value:2.81},{axis:"Death",value:6.31},{axis:"Assists",value:15.81},{axis:"GMP",value:2.92},{axis:"XMP",value:366
+        }]},
+    Fata:{className:'player',axes:[{axis:"kills",value:6.88},{axis:"Death",value:5.06},{axis:"Assists",value:12.41},{axis:"GMP",value:4.67},{axis:"XMP",value:4.92
+        }]},
+    fy:{className:'player',axes:[{axis:"kills",value:5.06},{axis:"Death",value:6.56},{axis:"Assists",value:15.25},{axis:"GMP",value:3.48},{axis:"XMP",value:4.87
+        }]},
+    Universe:{className:'player',axes:[{axis:"kills",value:6},{axis:"Death",value:3.75},{axis:"Assists",value:12.19},{axis:"GMP",value:4.41},{axis:"XMP",value:4.59
+        }]},
+    MidOne:{className:'player',axes:[{axis:"kills",value:5.29},{axis:"Death",value:4.76},{axis:"Assists",value:12.53},{axis:"GMP",value:5.30},{axis:"XMP",value:5.32
+        }]},
+    XinQ:{className:'player',axes:[{axis:"kills",value:7.19},{axis:"Death",value:3.38},{axis:"Assists",value:8.88},{axis:"GMP",value:5.20},{axis:"XMP",value:5.65
+        }]},
+    Paparazi:{className:'player',axes:[{axis:"kills",value:5.94},{axis:"Death",value:3.19},{axis:"Assists",value:9},{axis:"GMP",value:4.98},{axis:"XMP",value:5.15
+        }]},
+    L33:{className:'player',axes:[{axis:"kills",value:7.53},{axis:"Death",value:4.76},{axis:"Assists",value:9.76},{axis:"GMP",value:4.66},{axis:"XMP",value:5.06
+        }]},
+    Abed:{className:'player',axes:[{axis:"kills",value:8.31},{axis:"Death",value:3.63},{axis:"Assists",value:8.44},{axis:"GMP",value:5.37},{axis:"XMP",value:5.73
+        }]},
+    Raven:{className:'player',axes:[{axis:"kills",value:6.75},{axis:"Death",value:3.13},{axis:"Assists",value:7.25},{axis:"GMP",value:5.35},{axis:"XMP",value:5.23
+        }]},
+    Ceb:{className:'player',axes:[{axis:"kills",value:4.69},{axis:"Death",value:5.06},{axis:"Assists",value:12.81},{axis:"GMP",value:4.51},{axis:"XMP",value:4.88
+        }]},
+    Sylar:{className:'player',axes:[{axis:"kills",value:8.38},{axis:"Death",value:3.81},{axis:"Assists",value:11.38},{axis:"GMP",value:5.47},{axis:"XMP",value:5.76
+        }]},
+    CCnC:{className:'player',axes:[{axis:"kills",value:6.65},{axis:"Death",value:4.65},{axis:"Assists",value:9.29},{axis:"GMP",value:5.40},{axis:"XMP",value:5.45
+        }]},
+    Sam_H:{className:'player',axes:[{axis:"kills",value:5.19},{axis:"Death",value:4},{axis:"Assists",value:10.69},{axis:"GMP",value:4.50},{axis:"XMP",value:4.46
+        }]},
+    Solo:{className:'player',axes:[{axis:"kills",value:2.75},{axis:"Death",value:7.81},{axis:"Assists",value:18.88},{axis:"GMP",value:2.86},{axis:"XMP",value:3.49
+        }]},
+    kpii:{className:'player',axes:[{axis:"kills",value:4.67},{axis:"Death",value:4.72},{axis:"Assists",value:11.56},{axis:"GMP",value:4.47},{axis:"XMP",value:4.89
+        }]},
+    xNova:{className:'player',axes:[{axis:"kills",value:2.56},{axis:"Death",value:6.31},{axis:"Assists",value:12.69},{axis:"GMP",value:2.92},{axis:"XMP",value:3.73
+        }]},
+    ana:{className:'player',axes:[{axis:"kills",value:7.25},{axis:"Death",value:5.94},{axis:"Assists",value:10.13},{axis:"GMP",value:5.27},{axis:"XMP",value:5.44
+        }]},
+    Dj:{className:'player',axes:[{axis:"kills",value:5.81},{axis:"Death",value:5.31},{axis:"Assists",value:13.75},{axis:"GMP",value:3.34},{axis:"XMP",value:4.09
+        }]},
+    Puppey:{className:'player',axes:[{axis:"kills",value:2.24},{axis:"Death",value:6.76},{axis:"Assists",value:17.06},{axis:"GMP",value:2.90},{axis:"XMP",value:3.53
+        }]},
+    Ori:{className:'player',axes:[{axis:"kills",value:6.94},{axis:"Death",value:3.81},{axis:"Assists",value:6.69},{axis:"GMP",value:4.72},{axis:"XMP",value:5.21
+        }]},
+    Freeze:{className:'player',axes:[{axis:"kills",value:6.81},{axis:"Death",value:4.19},{axis:"Assists",value:9.81},{axis:"GMP",value:4.94},{axis:"XMP",value:5.48
+        }]},
+    JerAx:{className:'player',axes:[{axis:"kills",value:3.38},{axis:"Death",value:6},{axis:"Assists",value:12.31},{axis:"GMP",value:3.10},{axis:"XMP",value:3.95
+        }]},
+    Zyd:{className:'player',axes:[{axis:"kills",value:6.44},{axis:"Death",value:4.38},{axis:"Assists",value:8.19},{axis:"GMP",value:4.84},{axis:"XMP",value:5.56
+        }]},
+    zai:{className:'player',axes:[{axis:"kills",value:3.65},{axis:"Death",value:7.12},{axis:"Assists",value:14.59},{axis:"GMP",value:2.78},{axis:"XMP",value:3.65
+        }]},
+    zhizhizhi:{className:'player',axes:[{axis:"kills",value:5.5},{axis:"Death",value:4.5},{axis:"Assists",value:9.13},{axis:"GMP",value:4.83},{axis:"XMP",value:4.93
+        }]},
+    Topson:{className:'player',axes:[{axis:"kills",value:7.44},{axis:"Death",value:6.44},{axis:"Assists",value:8.69},{axis:"GMP",value:4.97},{axis:"XMP",value:5.31
+        }]},
+    LaNm:{className:'player',axes:[{axis:"kills",value:2.81},{axis:"Death",value:4.75},{axis:"Assists",value:12.25},{axis:"GMP",value:2.94},{axis:"XMP",value:4.29
+        }]},
+    Armel:{className:'player',axes:[{axis:"kills",value:7.44},{axis:"Death",value:4.81},{axis:"Assists",value:7.38},{axis:"GMP",value:5.51},{axis:"XMP",value:5.75
+        }]},
+    kaka:{className:'player',axes:[{axis:"kills",value:4.28},{axis:"Death",value:6.83},{axis:"Assists",value:13},{axis:"GMP",value:3.30},{axis:"XMP",value:4.17
+        }]},
+    Iceberg:{className:'player',axes:[{axis:"kills",value:7.5},{axis:"Death",value:4.61},{axis:"Assists",value:7.28},{axis:"GMP",value:5.50},{axis:"XMP",value:5.65
+        }]},
+    Fade:{className:'player',axes:[{axis:"kills",value:4.75},{axis:"Death",value:5.69},{axis:"Assists",value:12.94},{axis:"GMP",value:3.30},{axis:"XMP",value:4.16
+        }]},
+    Faith:{className:'player',axes:[{axis:"kills",value:2.33},{axis:"Death",value:7.39},{axis:"Assists",value:14.78},{axis:"GMP",value:2.80},{axis:"XMP",value:3.60
+        }]},
+    nongrata:{className:'player',axes:[{axis:"kills",value:6.94},{axis:"Death",value:5},{axis:"Assists",value:8.17},{axis:"GMP",value:4.03},{axis:"XMP",value:4.71
+        }]},
+    EternaLEnVy:{className:'player',axes:[{axis:"kills",value:4.88},{axis:"Death",value:5.31},{axis:"Assists",value:8.56},{axis:"GMP",value:4.80},{axis:"XMP",value:5.21
+        }]},
+    Pyw:{className:'player',axes:[{axis:"kills",value:3.69},{axis:"Death",value:6.5},{axis:"Assists",value:12.38},{axis:"GMP",value:2.86},{axis:"XMP",value:3.69
+        }]},
+    MuShi:{className:'player',axes:[{axis:"kills",value:7.88},{axis:"Death",value:4.81},{axis:"Assists",value:8.75},{axis:"GMP",value:5.20},{axis:"XMP",value:5.12
+        }]},
+    Yang:{className:'player',axes:[{axis:"kills",value:4.13},{axis:"Death",value:5.81},{axis:"Assists",value:12.5},{axis:"GMP",value:4.12},{axis:"XMP",value:4.65
+        }]},
+    Silent:{className:'player',axes:[{axis:"kills",value:4.89},{axis:"Death",value:5.06},{axis:"Assists",value:9.44},{axis:"GMP",value:4.69},{axis:"XMP",value:4.97
+        }]},
+    BigDaddyNotail:{className:'player',axes:[{axis:"kills",value:4.19},{axis:"Death",value:8.94},{axis:"Assists",value:12.25},{axis:"GMP",value:2.90},{axis:"XMP",value:3.22
+        }]},
+    Nana:{className:'player',axes:[{axis:"kills",value:6.25},{axis:"Death",value:4.88},{axis:"Assists",value:9.31},{axis:"GMP",value:5.74},{axis:"XMP",value:5.52
+        }]},
+    ppd:{className:'player',axes:[{axis:"kills",value:2},{axis:"Death",value:8.65},{axis:"Assists",value:12.88},{axis:"GMP",value:2.46},{axis:"XMP",value:3.48
+        }]},
+    iceiceice:{className:'player',axes:[{axis:"kills",value:4.31},{axis:"Death",value:5.5},{axis:"Assists",value:12.69},{axis:"GMP",value:4.29},{axis:"XMP",value:4.86
+        }]},
+    XCJ:{className:'player',axes:[{axis:"kills",value:2.19},{axis:"Death",value:6.13},{axis:"Assists",value:11.06},{axis:"GMP",value:2.43},{axis:"XMP",value:3.12
+        }]},
+    TIMS:{className:'player',axes:[{axis:"kills",value:2.31},{axis:"Death",value:6.94},{axis:"Assists",value:12.13},{axis:"GMP",value:2.88},{axis:"XMP",value:3.81
+        }]},
+    eLeVeN:{className:'player',axes:[{axis:"kills",value:3.94},{axis:"Death",value:6.63},{axis:"Assists",value:9.44},{axis:"GMP",value:4.25},{axis:"XMP",value:4.99
+        }]},
+    Agressif:{className:'player',axes:[{axis:"kills",value:7},{axis:"Death",value:4.72},{axis:"Assists",value:8.56},{axis:"GMP",value:4.88},{axis:"XMP",value:5.04
+        }]},
+    hFn:{className:'player',axes:[{axis:"kills",value:6.31},{axis:"Death",value:6.13},{axis:"Assists",value:9.81},{axis:"GMP",value:5.46},{axis:"XMP",value:6.02
+        }]},
+    pieliedie:{className:'player',axes:[{axis:"kills",value:2.06},{axis:"Death",value:7.25},{axis:"Assists",value:11.56},{axis:"GMP",value:2.93},{axis:"XMP",value:3.32
+        }]},
+    Xxs:{className:'player',axes:[{axis:"kills",value:6.78},{axis:"Death",value:4.67},{axis:"Assists",value:8.56},{axis:"GMP",value:5.74},{axis:"XMP",value:5.59
+        }]},
+    Nofear:{className:'player',axes:[{axis:"kills",value:1.72},{axis:"Death",value:6.22},{axis:"Assists",value:11.39},{axis:"GMP",value:2.82},{axis:"XMP",value:3.56
+        }]},
+    w33:{className:'player',axes:[{axis:"kills",value:8},{axis:"Death",value:6.38},{axis:"Assists",value:7.63},{axis:"GMP",value:5.43},{axis:"XMP",value:5.40
+        }]},
+    Boboka:{className:'player',axes:[{axis:"kills",value:3.61},{axis:"Death",value:5.78},{axis:"Assists",value:13.56},{axis:"GMP",value:2.87},{axis:"XMP",value:3.89
+        }]},
+    Jabz:{className:'player',axes:[{axis:"kills",value:4.06},{axis:"Death",value:7.19},{axis:"Assists",value:12.56},{axis:"GMP",value:3.19},{axis:"XMP",value:4.06
+        }]},
+    ddc:{className:'player',axes:[{axis:"kills",value:2.69},{axis:"Death",value:9.06},{axis:"Assists",value:14.5},{axis:"GMP",value:2.51},{axis:"XMP",value:3.18
+        }]},
+    nb:{className:'player',axes:[{axis:"kills",value:2.31},{axis:"Death",value:7.63},{axis:"Assists",value:14.63},{axis:"GMP",value:2.72},{axis:"XMP",value:3.37
+        }]},
+    Fenrir:{className:'player',axes:[{axis:"kills",value:2.81},{axis:"Death",value:7.69},{axis:"Assists",value:9.06},{axis:"GMP",value:2.24},{axis:"XMP",value:2.96
+        }]},
+    Kuku:{className:'player',axes:[{axis:"kills",value:1.81},{axis:"Death",value:9.5},{axis:"Assists",value:12.56},{axis:"GMP",value:2.86},{axis:"XMP",value:3.39
+        }]},
+    Srf:{className:'player',axes:[{axis:"kills",value:4.33},{axis:"Death",value:5.61},{axis:"Assists",value:10.17},{axis:"GMP",value:3.85},{axis:"XMP",value:4.60
+        }]},
+    tavo:{className:'player',axes:[{axis:"kills",value:4.75},{axis:"Death",value:7},{axis:"Assists",value:9.19},{axis:"GMP",value:4.31},{axis:"XMP",value:4.75
+        }]},
+    ALWAYSWANNAFLY:{className:'player',axes:[{axis:"kills",value:1.78},{axis:"Death",value:8.78},{axis:"Assists",value:11.83},{axis:"GMP",value:2.40},{axis:"XMP",value:2.91
+        }]},
+    Kingrd:{className:'player',axes:[{axis:"kills",value:2.81},{axis:"Death",value:9.19},{axis:"Assists",value:13.19},{axis:"GMP",value:2.81},{axis:"XMP",value:4.01
+        }]},
+    Q:{className:'player',axes:[{axis:"kills",value:2.22},{axis:"Death",value:7.33},{axis:"Assists",value:13.61},{axis:"GMP",value:2.93},{axis:"XMP",value:3.75
+        }]},
+    Duster:{className:'player',axes:[{axis:"kills",value:2.75},{axis:"Death",value:9.13},{axis:"Assists",value:11.56},{axis:"GMP",value:2.59},{axis:"XMP",value:3.16
+        }]}};
+
+
+
+</script>
+<script>
+function draw(a,b,c,d,e) {
+
+    console.log(player[a])
+    console.log(a)
+    console.log(player[b])
+    console.log(b)
+
+    console.log(player[c])
+    console.log(c)
+
+    console.log(player[d])
+    console.log(d)
+
+    console.log(player[e])
+    console.log(e)
+
+    data1 = [average1, max1, player[a]]
+    data2 = [average2, max2, player[b]]
+    data3 = [average3, max3, player[c]]
+    data4 = [average4, max4, player[d]]
+    data5 = [average5, max5, player[e]]
+    var chart = RadarChart.chart();
+    var cfg = chart.config(); // retrieve default config
+    d3.select('#rador').remove()
+    d3.select('#rador2').remove()
+
+    d3.select('#rador3').remove()
+
+    d3.select('#rador4').remove()
+
+    d3.select('#rador5').remove()
+    d3.select('#label').remove()
+
+    console.log(cfg)
+    console.log(cfg.w)
+    console.log(cfg.h)
+    var svg = d3.select('body').append('svg')
+        .attr('id','label')
+        .attr('width', cfg.w+50 )
+        .attr('height',20)
+
+    svg.append('rect')
+        .attr({
+            'x':0,
+            'width':50,
+            'height':10,
+            'fill':"#a9e9ff"
+        })
+
+    svg.append("text")
+        .text(function(d) {
+            return "Max"
+        })
+        .attr({
+        'x':50,
+            'y':10,
+        'fill':"#a9e9ff"
+    })
+
+    svg.append('rect')
+        .attr({
+            'x':170,
+            'width':50,
+            'height':10,
+            'fill':"#e60925"
+        })
+    svg.append("text")
+        .text(function(d) {
+            return "Average"
+        })
+        .attr({
+            'x':220,
+            'y':11,
+            'fill':"#e60925"
+        })
+    svg.append('rect')
+        .attr({
+            'x':340,
+            'width':50,
+            'height':10,
+            'fill':"#e6d28e"
+        })
+    svg.append("text")
+        .text(function(d) {
+            return "Player"
+        })
+        .attr({
+            'x':390,
+            'y':11,
+            'fill':"#e6d28e"
+        })
+
+    var svg1 = d3.select('body').append('svg')
+        .attr('id', 'rador')
+        .attr('width', cfg.w + 700)
+        .attr('height', cfg.h);
+    // var svg1 = d3.select('body').append('svg')
+    //     .attr('id','rador')
+    //     .attr('width', cfg.w +  50)
+    //     .attr('height', cfg.h );
+    svg1.append('svg:image')
+        .attr({
+            'left': 10 + '%',
+            'width': 100 + '%',
+            'height': 100 + '%',
+            'xlink:href': 'data/figs/player/' + a + '.png',  // can also add svg file here
+        });
+    svg1.append('g').datum(data1).call(chart)
+    var svg2 = d3.select('body').append('svg')
+        .attr('id', 'rador2')
+        .attr('width', cfg.w + 700)
+        .attr('height', cfg.h);
+    // var svg1 = d3.select('body').append('svg')
+    //     .attr('id','rador')
+    //     .attr('width', cfg.w +  50)
+    //     .attr('height', cfg.h );
+    svg2.append('svg:image')
+        .attr({
+            'left': 10 + '%',
+            'width': 100 + '%',
+            'height': 100 + '%',
+            'xlink:href': 'data/figs/player/' + b + '.png',
+        });
+    svg2.append('g').datum(data2).call(chart)
+    var svg3 = d3.select('body').append('svg')
+        .attr('id', 'rador3')
+        .attr('width', cfg.w + 700)
+        .attr('height', cfg.h);
+    // var svg1 = d3.select('body').append('svg')
+    //     .attr('id','rador')
+    //     .attr('width', cfg.w +  50)
+    //     .attr('height', cfg.h );
+    svg3.append('svg:image')
+        .attr({
+            'left': 10 + '%',
+            'width': 100 + '%',
+            'height': 100 + '%',
+            'xlink:href': 'data/figs/player/' + c + '.png',
+        });
+    svg3.append('g').datum(data3).call(chart)
+    var svg4 = d3.select('body').append('svg')
+        .attr('id', 'rador4')
+        .attr('width', cfg.w + 700)
+        .attr('height', cfg.h);
+    // var svg1 = d3.select('body').append('svg')
+    //     .attr('id','rador')
+    //     .attr('width', cfg.w +  50)
+    //     .attr('height', cfg.h );
+    svg4.append('svg:image')
+        .attr({
+            'left': 10 + '%',
+            'width': 100 + '%',
+            'height': 100 + '%',
+            'xlink:href': 'data/figs/player/' + d + '.png',
+        });
+    svg4.append('g').datum(data4).call(chart)
+    var svg5 = d3.select('body').append('svg')
+        .attr('id', 'rador5')
+        .attr('width', cfg.w + 700)
+        .attr('height', cfg.h);
+    // var svg1 = d3.select('body').append('svg')
+    //     .attr('id','rador')
+    //     .attr('width', cfg.w +  50)
+    //     .attr('height', cfg.h );
+    svg5.append('svg:image')
+        .attr({
+            'left': 10 + '%',
+            'width': 100 + '%',
+            'height': 100 + '%',
+            'xlink:href': 'data/figs/player/' + e + '.png',
+        });
+    svg5.append('g').datum(data5).call(chart)
+
+}
+
+</script>
+
+</body>
+</html>
+
+
+
+
