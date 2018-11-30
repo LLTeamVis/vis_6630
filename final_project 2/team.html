@@ -35,6 +35,9 @@
             fill: #e6d28e;
             stroke: none;
         }
+        table {
+            font-family: Georgia, serif;
+        }
     </style>
 
 <body>
@@ -102,23 +105,7 @@
             <td id='ig'></td>
             <td id='pg'></td>
         </tr>
-        <tr>
-            <td colspan="2" id='team_radar_name'></td>
-            <td colspan="2" id='player1_radar_name'></td>
-            <td colspan="2" id='player2_radar_name'></td>
-            <td colspan="2" id='player3_radar_name'></td>
-            <td colspan="2" id='player4_radar_name'></td>
-            <td colspan="2" id='player5_radar_name'></td>
-        </tr>
-        <tr>
-            <td rowspan="2" colspan="2" id='team_radar'></td>
-            <td rowspan="2" colspan="2" id='player1_radar'></td>
-            <td rowspan="2" colspan="2" id='player2_radar'></td>
-            <td rowspan="2" colspan="2" id='player3_radar'></td>
-            <td rowspan="2" colspan="2" id='player4_radar'></td>
-            <td rowspan="2" colspan="2" id='player5_radar'></td>
-        </tr>
-        <tr></tr>
+        
     </table>
     
     <script>
@@ -133,7 +120,7 @@
 
             d3.csv('data/Teams.csv', function(error, data) {
                 if (error) throw error;
-                console.log(data);
+                
                 data.map(da=>{
                     let id=da.id;
                     let name=da.Name;
@@ -153,16 +140,12 @@
             for(let i=1;i<=5;i++){
                 document.getElementById('Player'+i.toString()).innerHTML='';
                 document.getElementById('Player'+i.toString()).appendChild(document.createTextNode(a[0]['Player'+i.toString()].toString()));
-                document.getElementById('player'+i.toString()+'_radar_name').innerHTML='';
-                document.getElementById('player'+i.toString()+'_radar_name').appendChild(document.createTextNode(a[0]['Player'+i.toString()].toString()));
-                
+               
             }
             document.getElementById('Coach').innerHTML='';
             document.getElementById('Coach').appendChild(document.createTextNode(a[0]['Coach'].toString()));
             document.getElementById('name').innerHTML='';
             document.getElementById('name').appendChild(document.createTextNode(a[0]['Name'].toString()));
-            document.getElementById('team_radar_name').innerHTML='';
-            document.getElementById('team_radar_name').appendChild(document.createTextNode(a[0]['Name'].toString()));
             document.getElementById('Coach').innerHTML='';
             document.getElementById('Coach').appendChild(document.createTextNode(a[0]['Coach'].toString()));
             document.getElementById('Location').innerHTML='';
@@ -174,9 +157,9 @@
             document.getElementById('Caption').innerHTML='';
             document.getElementById('Caption').appendChild(document.createTextNode(a[0]['Caption'].toString()));
             document.getElementById('Total_Earnings').innerHTML='';
-            document.getElementById('Total_Earnings').appendChild(document.createTextNode(a[0]['Total_Earnings'].toString()));
+            document.getElementById('Total_Earnings').appendChild(document.createTextNode('$'+a[0]['Total_Earnings'].toString()));
             document.getElementById('Pro_Circuit_Rank').innerHTML='';
-            document.getElementById('Pro_Circuit_Rank').appendChild(document.createTextNode(a[0]['Pro_Circuit_Rank'].toString()));
+            document.getElementById('Pro_Circuit_Rank').appendChild(document.createTextNode('#'+a[0]['Pro_Circuit_Rank'].toString()));
             document.getElementById('pic').innerHTML='';
             let img=document.createElement('img');
             img.setAttribute('src','data/figs/'+a[0]['Name'].replace(/ /g,'_')+'.png');
@@ -184,7 +167,6 @@
             //img.setAttribute('height',width*6*0.8);
             img.setAttribute('title',a[0]['Name']);
             document.getElementById('pic').appendChild(img);
-            console.log(a[0]['Player1'],a[0]['Player2'],a[0]['Player3'],a[0]['Player4'],a[0]['Player5'])
             draw(a[0]['Player1'],a[0]['Player2'],a[0]['Player3'],a[0]['Player4'],a[0]['Player5'])
         }
 
@@ -498,20 +480,6 @@
 <script>
 function draw(a,b,c,d,e) {
 
-    console.log(player[a])
-    console.log(a)
-    console.log(player[b])
-    console.log(b)
-
-    console.log(player[c])
-    console.log(c)
-
-    console.log(player[d])
-    console.log(d)
-
-    console.log(player[e])
-    console.log(e)
-
     data1 = [average1, max1, player[a]]
     data2 = [average2, max2, player[b]]
     data3 = [average3, max3, player[c]]
@@ -529,9 +497,7 @@ function draw(a,b,c,d,e) {
     d3.select('#rador5').remove()
     d3.select('#label').remove()
 
-    console.log(cfg)
-    console.log(cfg.w)
-    console.log(cfg.h)
+    
     var svg = d3.select('body').append('svg')
         .attr('id','label')
         .attr('width', cfg.w+50 )
