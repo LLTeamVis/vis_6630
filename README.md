@@ -1,8 +1,8 @@
 # The international 8 tournament of DOTA2
 
-Fall 2018 CS6630 Final Project
-Author: Gang Liu & Mai Li
-Email: u0866264@utah.edu & u1210675@utah.edu
+-Fall 2018 CS6630 Final Project
+-Author: Gang Liu & Mai Li
+-Email: u0866264@utah.edu & u1210675@utah.edu
 
 >[Project Website](https://llteamvis.github.io/vis_6630/)
 
