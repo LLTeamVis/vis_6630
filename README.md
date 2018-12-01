@@ -10,6 +10,6 @@
 
 >[Proposal](https://llteamvis.github.io/vis_6630/proposal.pdf)
 
->[Feedback](https://llteamvis.github.io/vis_6630/feed_exercise.pdf)
+>[Feedback](https://llteamvis.github.io/vis_6630/feedback_exercise.pdf)
 
 >Demo Video
